@@ -66,49 +66,89 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!isOpen) item.classList.add('open');
   };
 
-  // ===== Inquiry form submission =====
+  // ===== Inquiry form ¡ª Web3Forms email + WhatsApp =====
   window.handleInquirySubmit = function(event) {
     event.preventDefault();
     var form = document.getElementById('inquiryForm');
     if (!form) return;
 
-    var name = form.querySelector('#name').value.trim();
-    var email = form.querySelector('#email').value.trim();
-    var productType = form.querySelector('#productType').value;
-    var quantity = form.querySelector('#quantity').value;
+    var name        = ((form.querySelector('#name')        || {}).value || '').trim();
+    var email       = ((form.querySelector('#email')       || {}).value || '').trim();
+    var company     = ((form.querySelector('#company')     || {}).value || '').trim();
+    var whatsapp    = ((form.querySelector('#whatsapp')    || {}).value || '').trim();
+    var productType = ((form.querySelector('#productType') || {}).value || '');
+    var quantity    = ((form.querySelector('#quantity')    || {}).value || '');
+    var message     = ((form.querySelector('#message')     || {}).value || '').trim();
 
     if (!name || !email || !productType || !quantity) {
       alert('Please fill in all required fields (marked with *).');
       return;
     }
-
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       alert('Please enter a valid email address.');
       return;
     }
 
-    // In production: replace with your form endpoint
-    // For now, redirect to WhatsApp with inquiry summary
-    var whatsapp = form.querySelector('#whatsapp').value.trim();
-    var messageText = form.querySelector('#message').value.trim();
-    var company = form.querySelector('#company').value.trim();
+    var btn = form.querySelector('button[type="submit"]');
+    if (btn) { btn.disabled = true; btn.textContent = 'Sending...'; }
 
-    var waText = 'Hello+Umay+Garment!%0A%0A' +
-      'Name:+' + encodeURIComponent(name) + '%0A' +
-      'Company:+' + encodeURIComponent(company || 'N/A') + '%0A' +
-      'Email:+' + encodeURIComponent(email) + '%0A' +
-      'Product:+' + encodeURIComponent(productType) + '%0A' +
-      'Quantity:+' + encodeURIComponent(quantity) + '%0A' +
-      'Message:+' + encodeURIComponent(messageText || 'N/A');
+    var emailBody = [
+      'Name: ' + name,
+      'Company: ' + (company || 'N/A'),
+      'Email: ' + email,
+      'WhatsApp/Phone: ' + (whatsapp || 'N/A'),
+      'Product Type: ' + productType,
+      'Quantity: ' + quantity,
+      'Requirements: ' + (message || 'N/A')
+    ].join('\n');
 
-    alert('Thank you, ' + name + '! Redirecting you to WhatsApp for faster response...');
+    // Send email via Web3Forms
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        access_key: '9019729d-8d65-4cd8-9c61-f22331136d54',
+        subject: 'New Inquiry from ' + name + ' ¡ª ' + productType,
+        from_name: 'Umay Garment Website',
+        replyto: email,
+        message: emailBody
+      })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var waMsg = 'Hello+Umay+Garment%21%0A%0A'
+        + 'Name%3A+' + encodeURIComponent(name) + '%0A'
+        + 'Company%3A+' + encodeURIComponent(company || 'N/A') + '%0A'
+        + 'Email%3A+' + encodeURIComponent(email) + '%0A'
+        + 'Product%3A+' + encodeURIComponent(productType) + '%0A'
+        + 'Quantity%3A+' + encodeURIComponent(quantity) + '%0A'
+        + 'Message%3A+' + encodeURIComponent(message || 'N/A');
 
-    // Replace YOURNUMBER with actual WhatsApp number
-    var waUrl = 'https://wa.me/8618857337355?text=' + waText;
-    window.open(waUrl, '_blank');
+      form.reset();
+      var note = form.querySelector('.form-note');
+      if (note) {
+        note.style.color = '#16a34a';
+        note.style.fontWeight = '700';
+        note.innerHTML = data.success
+          ? '&#10003; Inquiry sent to cathy@umaygarment.com! Opening WhatsApp...'
+          : '&#10003; Redirecting to WhatsApp...';
+      }
+      if (btn) { btn.disabled = false; btn.textContent = 'Send My Inquiry'; }
 
-    form.reset();
+      setTimeout(function() {
+        window.open('https://wa.me/8618857337355?text=' + waMsg, '_blank');
+        if (note) {
+          note.style.color = '';
+          note.style.fontWeight = '';
+          note.innerHTML = 'Safe & private. Reply within 24h. <strong>cathy@umaygarment.com</strong> | WhatsApp: <strong>+86 188 5733 7355</strong>';
+        }
+      }, 1200);
+    })
+    .catch(function() {
+      // Fallback: still open WhatsApp even if email fails
+      if (btn) { btn.disabled = false; btn.textContent = 'Send My Inquiry'; }
+      window.open('https://wa.me/8618857337355?text=Hello+Umay+Garment%2C+I+just+viewed+your+premium+fur+collection+and+would+like+to+discuss+a+custom+project.+Can+we+chat%3F', '_blank');
+    });
   };
 
   // ===== Scroll animations =====
