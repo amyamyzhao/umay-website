@@ -373,16 +373,15 @@ h3 { font-size:1.1rem; }
   border:1px solid var(--border); border-radius:10px; overflow:hidden;
 }
 .compare-col { padding:36px 40px; }
-.compare-col.bad { background:var(--bg-warm); }
-.compare-col.good { background:var(--bg); border-left:1px solid var(--border); }
+.compare-col.buyer-input { background:var(--bg-warm); }
+.compare-col.factory-confirm { background:var(--bg); border-left:1px solid var(--border); }
 .compare-col h3 { display:flex; align-items:center; gap:8px; margin-bottom:20px; font-size:1rem; }
 .compare-col ul li {
   padding:8px 0; display:flex; align-items:flex-start; gap:10px;
   font-size:0.88rem; color:var(--text-soft); line-height:1.5;
 }
 .compare-col ul li .icon { flex-shrink:0; margin-top:2px; }
-.compare-col.bad .icon { color:var(--red); }
-.compare-col.good .icon { color:var(--green); }
+.compare-col.buyer-input .icon,.compare-col.factory-confirm .icon { min-width:24px;color:var(--primary);font-weight:800;font-size:.72rem;letter-spacing:.04em; }
 .compare-badge {
   display:inline-block; background:var(--gold); color:#fff; font-size:0.72rem;
   font-weight:700; padding:4px 14px; border-radius:14px; margin-bottom:12px;
@@ -555,8 +554,6 @@ h3 { font-size:1.1rem; }
   .hero-visual { max-width:360px; margin:0 auto; }
   .product-grid { grid-template-columns:repeat(2,1fr); }
   .featured-product { grid-template-columns:1fr; }
-  .compare-grid { grid-template-columns:1fr; }
-  .compare-col.good { border-left:none; border-top:1px solid var(--border); }
   .inquiry-wrapper { grid-template-columns:1fr; }
   .process-grid { grid-template-columns:repeat(2,1fr); }
   .process-step::after { display:none; }
@@ -576,6 +573,11 @@ h3 { font-size:1.1rem; }
   .footer-grid { grid-template-columns:1fr; }
   .form-row { grid-template-columns:1fr; }
   .stats-bar .container { grid-template-columns:repeat(2,1fr); }
+  .stat-cell { padding:15px 8px; }
+  .stat-cell .num { font-size:1.12rem; line-height:1.18; margin-bottom:3px; }
+  .stat-cell .label { font-size:.68rem; line-height:1.3; }
+  .compare-grid { grid-template-columns:1fr; }
+  .compare-col.factory-confirm { border-left:none; border-top:1px solid var(--border); }
   .brand-row { gap:24px; }
   /* Inquiry section mobile fix */
   .inquiry-wrapper { grid-template-columns:1fr; gap:24px; }

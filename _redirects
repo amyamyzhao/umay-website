@@ -1,0 +1,16 @@
+# Keep one permanent, extensionless URL for every HTML page.
+/index.html / 301
+/about.html /about 301
+/products/index.html /products/ 301
+/blog/index.html /blog/ 301
+
+# URLs reported by Google Search Console.
+/products/raccoon-fur.html /products/raccoon-fur 301
+/products/fox-fur.html /products/fox-fur 301
+/products/faux-fur.html /products/faux-fur 301
+/products/leather-jacket.html /products/leather-jacket 301
+/products/cashmere-sheep.html /products/cashmere-sheep 301
+
+# Future product and article links using the old extension format.
+/products/:slug.html /products/:slug 301
+/blog/:slug.html /blog/:slug 301
