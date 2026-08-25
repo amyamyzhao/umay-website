@@ -9,6 +9,7 @@ const siteFiles = [
   "about.html",
   "index.html",
   "llms.txt",
+  "materials-customization.html",
   "robots.txt",
   "sitemap.xml",
 ];
