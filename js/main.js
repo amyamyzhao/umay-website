@@ -114,8 +114,21 @@ document.addEventListener('DOMContentLoaded', function() {
         message: emailBody
       })
     })
-    .then(function(r) { return r.json(); })
+    .then(function(r) {
+      if (!r.ok) throw new Error('Web3Forms request failed');
+      return r.json();
+    })
     .then(function(data) {
+      if (!data || data.success !== true) {
+        throw new Error('Web3Forms did not confirm success');
+      }
+      if (typeof window.umayTrack === 'function') {
+        window.umayTrack('generate_lead', {
+          lead_source: 'web3forms',
+          form_id: 'inquiryForm'
+        });
+      }
+
       var waMsg = 'Hello+Umay+Garment%21%0A%0A'
         + 'Name%3A+' + encodeURIComponent(name) + '%0A'
         + 'Company%3A+' + encodeURIComponent(company || 'N/A') + '%0A'
@@ -145,9 +158,13 @@ document.addEventListener('DOMContentLoaded', function() {
       }, 1200);
     })
     .catch(function() {
-      // Fallback: still open WhatsApp even if email fails
       if (btn) { btn.disabled = false; btn.textContent = 'Send My Inquiry'; }
-      window.open('https://wa.me/8618857337355?text=Hello+Umay+Garment%2C+I+just+viewed+your+premium+fur+collection+and+would+like+to+discuss+a+custom+project.+Can+we+chat%3F', '_blank');
+      var note = form.querySelector('.form-note');
+      if (note) {
+        note.style.color = '#b91c1c';
+        note.style.fontWeight = '700';
+        note.innerHTML = 'We could not confirm the email submission. Please try again or use a WhatsApp button on this page.';
+      }
     });
   };
 

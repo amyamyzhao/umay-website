@@ -94,3 +94,13 @@
 - [Fox Fur Trim Lapel Jacket](https://www.umaygarment.com/products/fox-fur-trim-lapel-jacket)
 - [Leather Biker Jacket with Rex Rabbit Fur Trim](https://www.umaygarment.com/products/leather-rex-rabbit-fur-biker-jacket)
 - [Fur Trim Outerwear Specification Guide](https://www.umaygarment.com/blog/fur-trim-outerwear-specification-guide)
+
+## August 27, 2026 — Confirmed Product Pages
+
+- [Caramel Suede-Look Jacket with Fox Fur Trim](https://www.umaygarment.com/products/caramel-suede-look-fox-fur-trim-jacket): Fox fur trim · Suede-look textile body.
+- [Fox Fur Panel Jacket — Grey & Green](https://www.umaygarment.com/products/fox-fur-panel-jacket): Fox fur outerwear · Grey and green references.
+- [Pink Fox Fur Trim Tie-Front Jacket](https://www.umaygarment.com/products/pink-fox-fur-trim-tie-front-jacket): Fox fur trim · Body specification by project.
+- [Silver Leather Jacket with Fox Fur Shoulder Panels](https://www.umaygarment.com/products/silver-leather-fox-fur-shoulder-panel-jacket): Genuine leather · Fox fur.
+- [Leather Jacket with Multi-Band Raccoon Fur Trim](https://www.umaygarment.com/products/leather-raccoon-fur-multi-band-jacket): Genuine leather · Raccoon fur.
+
+UMS-LTFX-010 covers the confirmed grey and green color references on one canonical page. UMS-FSFX-001 and UMS-FSFX-013 are separate constructions and keep separate pages.
