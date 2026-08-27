@@ -14,3 +14,6 @@
 # Future product and article links using the old extension format.
 /products/:slug.html /products/:slug 301
 /blog/:slug.html /blog/:slug 301
+
+# Retire the rejected mixed-style photograph without restoring it.
+/images/products/0825/embossed-cowhide-raccoon-fur-sleeve-jacket/view-01.webp /images/products/0827/UMS-LTRC-015/front.webp 301
