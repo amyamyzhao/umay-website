@@ -120,3 +120,19 @@ UMS-LTFX-010 covers the confirmed grey and green color references on one canonic
 - [Teddy Wool Cape Coat](https://www.umaygarment.com/products/teddy-wool-cape-coat): Teddy wool cape-coat reference; exact wool content, backing and lining are confirmed per project.
 
 Photographed colors share one canonical page when construction and buyer intent are the same. Material subtypes, proportions, lining, measurements, care and project specifications remain subject to written confirmation.
+
+## August 29, 2026 — Fox-Fur Outerwear References
+
+- [Green Shawl-Collar Cropped Fur Jacket](https://www.umaygarment.com/products/green-shawl-collar-cropped-fur-jacket): Cropped fox-fur jacket with a green shawl-collar direction and broad horizontal panels.
+- [Silver-Tone Chevron-Panel Fur Jacket](https://www.umaygarment.com/products/silver-tone-chevron-panel-fur-jacket): Silver-fox womenswear jacket reference with a 60 cm garment-length record.
+- [Two-Tone Double-Tie Fur Jacket](https://www.umaygarment.com/products/two-tone-double-tie-fur-jacket): White-fox and red-fox womenswear jacket reference with a 55 cm garment-length record.
+- [Men's Hooded Zip Fur Jacket](https://www.umaygarment.com/products/mens-hooded-zip-fur-jacket): Men's fox-fur outerwear reference with hooded zip-front construction.
+- [Round-Neck Horizontal-Panel Fur Jacket](https://www.umaygarment.com/products/round-neck-horizontal-panel-fur-jacket): Short real-fox-fur womenswear jacket; blue and orange references share one construction and are presented as color variants.
+- [Zip-Front Color-Block Fur Jacket](https://www.umaygarment.com/products/zip-front-color-block-fur-jacket): Short fox-fur womenswear jacket with alternating brown and black rows, a broad collar and full front zip.
+- [Oversized-Collar Fur-Trim Parka](https://www.umaygarment.com/products/oversized-collar-fur-trim-parka): Women's red-fox-trim parka reference with an oversized collar, long front trim and fur cuffs.
+- [Grey-White Mid-Length Panel Fur Coat](https://www.umaygarment.com/products/grey-white-mid-length-panel-fur-coat): Natural cross-fox coat direction with a long grey-white panel layout; finished measurements and grading are confirmed per project.
+- [Hooded Fur Panel Vest](https://www.umaygarment.com/products/hooded-fur-panel-vest): Short hooded fox-fur vest reference with a sleeveless zip-front construction.
+- [Belted Long Fabric Fur-Panel Coat](https://www.umaygarment.com/products/belted-long-fabric-fur-panel-coat): Women's long cashmere-and-fox outerwear direction with a belted fabric body; exact fibre composition is confirmed per project.
+- [How to Specify a Fox-Fur Jacket](https://www.umaygarment.com/blog/fox-fur-jacket-specification-guide): Buyer guide to material records, color treatment, panel maps, backing, lining, sample approval and canonical decisions.
+
+Repeated colors stay on one canonical page when construction and buyer intent are unchanged. Product materials, measurements, labels, packaging and schedule are finalized in the written project specification.
