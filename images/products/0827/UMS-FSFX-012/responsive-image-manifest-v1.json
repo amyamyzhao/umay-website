@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "pilot": "UMS-FSFX-012 responsive image delivery",
+  "format": "lossless WebP",
+  "resize_filter": "Lanczos",
+  "sources_preserved": true,
+  "images": [
+    {
+      "source": "front.jpg",
+      "source_width": 2952,
+      "source_height": 3708,
+      "source_bytes": 5249683,
+      "source_sha256_before": "92d69882d4a68496f6406b62f4d6c761a4d757b15c61f07bfeb819ebcd81e1ad",
+      "source_sha256_after": "92d69882d4a68496f6406b62f4d6c761a4d757b15c61f07bfeb819ebcd81e1ad",
+      "source_unchanged": true,
+      "derived": [
+        {
+          "file": "front-160-v1.webp",
+          "width": 160,
+          "height": 201,
+          "bytes": 26650,
+          "sha256": "8539d3775d3ff2c793beb9c2d657f42cea0c499300e96d00b56204c50641077a"
+        },
+        {
+          "file": "front-480-v1.webp",
+          "width": 480,
+          "height": 603,
+          "bytes": 189958,
+          "sha256": "a439f508108de7b575ace29ac95f340bdb7312318989fa16605242fd4aebbcdb"
+        },
+        {
+          "file": "front-800-v1.webp",
+          "width": 800,
+          "height": 1005,
+          "bytes": 503272,
+          "sha256": "f8dd42e10bb16f9cd4b3b8bebe2c9167ac085fa46a145c33f7b188dab36ded4d"
+        },
+        {
+          "file": "front-1200-v1.webp",
+          "width": 1200,
+          "height": 1507,
+          "bytes": 1122304,
+          "sha256": "99b338c079432eab5877739e6eddec0c48975973bf3a43689a4fbd2a62113bec"
+        }
+      ]
+    },
+    {
+      "source": "back.jpg",
+      "source_width": 2928,
+      "source_height": 3540,
+      "source_bytes": 5252745,
+      "source_sha256_before": "ae27b22f2d307811ea0efdd83aee01d0d8516ce078b1ec5d5581d7f008dd7edc",
+      "source_sha256_after": "ae27b22f2d307811ea0efdd83aee01d0d8516ce078b1ec5d5581d7f008dd7edc",
+      "source_unchanged": true,
+      "derived": [
+        {
+          "file": "back-160-v1.webp",
+          "width": 160,
+          "height": 193,
+          "bytes": 23328,
+          "sha256": "b57b82c53c737be34f198e1b4d9dc31907c81bdceb98e7d25871748fdbb54dc5"
+        },
+        {
+          "file": "back-480-v1.webp",
+          "width": 480,
+          "height": 580,
+          "bytes": 173932,
+          "sha256": "32fd24216fd91482d2730c1262a491ee46342b2c63646d3465325a35029a8f7c"
+        },
+        {
+          "file": "back-800-v1.webp",
+          "width": 800,
+          "height": 967,
+          "bytes": 478284,
+          "sha256": "de65ba7ecd2056281da4c54e3c60b245de3ea32dfce938bed022b3b1b87e6b89"
+        },
+        {
+          "file": "back-1200-v1.webp",
+          "width": 1200,
+          "height": 1451,
+          "bytes": 1087742,
+          "sha256": "6ddbe0b9021975dfa31ee1c8a843b173fa2272c664bc77c7f3437f2222cea1d6"
+        }
+      ]
+    },
+    {
+      "source": "side.jpg",
+      "source_width": 2688,
+      "source_height": 3636,
+      "source_bytes": 4318308,
+      "source_sha256_before": "1548383e1c42e05ac5f2ece4dce4e9e36ff95c1fa9700ed3bbae62063740aec8",
+      "source_sha256_after": "1548383e1c42e05ac5f2ece4dce4e9e36ff95c1fa9700ed3bbae62063740aec8",
+      "source_unchanged": true,
+      "derived": [
+        {
+          "file": "side-160-v1.webp",
+          "width": 160,
+          "height": 216,
+          "bytes": 24716,
+          "sha256": "b89b494b8cda8c86052b8829265e5c4d21f3837fa9c3413162f1e81d3b4fe6e6"
+        },
+        {
+          "file": "side-480-v1.webp",
+          "width": 480,
+          "height": 649,
+          "bytes": 180956,
+          "sha256": "93a9d51f57ab11f0d7a30f5f87a3ac16de8a35335daa75d72829e01c1a49a5b4"
+        },
+        {
+          "file": "side-800-v1.webp",
+          "width": 800,
+          "height": 1082,
+          "bytes": 500368,
+          "sha256": "1b4aaf60de92f9bc07ded98c6efc598d667bdc338e50bc9bd442efd8592f4b23"
+        },
+        {
+          "file": "side-1200-v1.webp",
+          "width": 1200,
+          "height": 1623,
+          "bytes": 1156092,
+          "sha256": "df0e73c8e4ec59d9758dc8bbafa1d41bfcaf1e4f1ae5bec9a971325c641eeb53"
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,7 @@
 <title>Custom Fox Fur Coats &amp; Vests OEM/ODM | UMAY</title>
 <link rel="canonical" href="https://www.umaygarment.com/products/fox-fur">
 <link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/0830-v7-link-clusters.css">
 <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
 <style>
 .page-hero{margin-top:var(--header-h);padding:80px 0 60px;background:linear-gradient(135deg,#1a1509 0%,#2c2416 100%);text-align:center;color:#fff;}
@@ -15,14 +16,15 @@
 .breadcrumb{font-size:0.85rem;color:rgba(255,255,255,0.5);margin-top:8px;}
 .breadcrumb a{color:var(--gold);}
 .product-detail{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start;padding:80px 0;}
+.product-detail>*{min-width:0;}
 .product-img img{width:100%;border-radius:12px;display:block;}
 .product-info h2{margin-bottom:12px;}
 .product-info p{color:var(--text-soft);line-height:1.8;margin-bottom:20px;}
-.spec-table{width:100%;border-collapse:collapse;margin:24px 0;}
+.spec-table{width:100%;border-collapse:collapse;margin:24px 0;table-layout:fixed;}
 .spec-table tr{border-bottom:1px solid var(--border);}
 .spec-table td{padding:12px 0;font-size:0.9rem;}
 .spec-table td:first-child{font-weight:700;color:var(--dark);width:140px;}
-.spec-table td:last-child{color:var(--text-soft);}
+.spec-table td:last-child{color:var(--text-soft);overflow-wrap:anywhere;}
 .tag-list{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0;}
 .tag-pill{background:var(--bg-warm);border:1px solid var(--border);border-radius:20px;padding:4px 14px;font-size:0.8rem;color:var(--text-soft);}
 .cta-box{background:var(--bg-warm);border:1px solid var(--border);border-radius:12px;padding:28px;margin-top:24px;text-align:center;}
@@ -36,7 +38,8 @@
 .related-card h4{font-size:0.95rem;margin-bottom:4px;}
 .related-card p{font-size:0.8rem;color:var(--text-soft);}
 .fi{width:100%;display:block;min-height:200px;background:#F5EDE0;}
-@media(max-width:768px){.product-detail{grid-template-columns:1fr;}.related-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:768px){.product-detail{grid-template-columns:minmax(0,1fr);}.related-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:480px){.container{padding-left:18px;padding-right:18px}.spec-table td:first-child{width:105px}.spec-table td{font-size:.84rem}}
 </style>
 <script type="application/ld+json">
 {
@@ -46,7 +49,7 @@
   "alternateName": "Umay Garment",
   "url": "https://www.umaygarment.com/",
   "logo": "https://www.umaygarment.com/images/brand/umay-garment-logo.webp",
-  "description": "Jiaxing supplier of OEM/ODM fox fur, raccoon fur, genuine leather, sheep shearling and faux-fur outerwear. Commercial terms are confirmed by style and specification.",
+  "description": "Jiaxing supplier presenting photographed fur, leather, shearling and faux-fur outerwear references for B2B development. Formal materials and commercial terms are confirmed by selected style and written specification.",
   "email": "cathy@umaygarment.com",
   "telephone": "+8618857337355",
   "address": {
@@ -61,8 +64,7 @@
     "name": "Cathy",
     "email": "cathy@umaygarment.com",
     "telephone": "+8618857337355",
-    "availableLanguage": ["English", "Chinese"],
-    "areaServed": ["EU", "US", "Central America", "Northern Europe"]
+    "availableLanguage": ["English", "Chinese"]
   },
   "sameAs": [
     "https://umaygarment.en.alibaba.com/"
@@ -73,10 +75,10 @@
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Real Fox Fur Coats & Vests - OEM Custom Factory Direct",
+  "name": "Custom Fox-Fur Outerwear Development",
   "image": [
-    "https://www.umaygarment.com/images/categories/fox-fur-coats-banner.webp",
-    "https://www.umaygarment.com/images/categories/raccoon-fur-coats-banner.webp"
+    "https://www.umaygarment.com/images/blog/fox-vs-raccoon/brown-fox-fur-jacket-front.webp",
+    "https://www.umaygarment.com/images/blog/fox-vs-raccoon/fox-fur-guard-hair-closeup.webp"
   ],
   "description": "Custom fox-fur coats, cropped jackets and vests for B2B buyers. Material species, dye standard, measurements, labels, MOQ and production schedule are confirmed for each style.",
   "brand": {
@@ -90,8 +92,7 @@
     "name": "Jiaxing Umay Garment Co., Ltd.",
     "url": "https://www.umaygarment.com/"
   },
-  "serviceType": "Custom garment manufacturing and private-label development",
-  "areaServed": "Worldwide",
+  "serviceType": "Custom outerwear development and private-label project review",
   "audience": {
     "@type": "BusinessAudience",
     "audienceType": "Fashion brands, boutiques, designers and apparel buyers"
@@ -104,9 +105,9 @@
 </head>
 <body>
 <header class="header" id="header"><div class="container">
-  <a href="/" class="logo"><img src="https://www.umaygarment.com/images/brand/umay-garment-logo.webp" alt="Umay Garment" style="height:56px;width:auto;object-fit:contain;background:#fff;padding:6px 14px;border-radius:4px;filter:grayscale(100%) contrast(180%);"></a>
+  <a href="/" class="logo"><img src="/images/brand/umay-garment-logo.webp" alt="Umay Garment" style="height:56px;width:auto;object-fit:contain;background:#fff;padding:6px 14px;border-radius:4px;filter:grayscale(100%) contrast(180%);"></a>
   <nav class="nav" id="nav">
-    <a href="/#products">Products</a>
+    <a href="/products/">Products</a>
     <a href="/#oem">OEM &amp; ODM</a>
     <a href="/about">About</a>
     <a href="/blog/">Blog</a>
@@ -116,7 +117,7 @@
   <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
 </div></header>
 <div class="mobile-nav" id="mobileNav">
-  <a href="/#products">Products</a><a href="/#oem">OEM &amp; ODM</a>
+  <a href="/products/">Products</a><a href="/#oem">OEM &amp; ODM</a>
   <a href="/about">About</a><a href="/blog/">Blog</a><a href="/#faq">FAQ</a>
   <a href="/#inquiry" class="btn btn-primary">Get Quote</a>
 </div>
@@ -127,8 +128,8 @@
 <div class="page-hero">
   <div class="container">
     <h1>Real Fox Fur Coats &amp; Vests</h1>
-    <p>Silver Fox · Arctic Fox · Red Fox · Custom OEM Factory Direct</p>
-    <div class="breadcrumb"><a href="/">Home</a> / <a href="/#products">Products</a> / Fox Fur</div>
+    <p>Silver Fox · Arctic Fox · Red Fox · B2B Custom Development</p>
+    <div class="breadcrumb"><a href="/">Home</a> / <a href="/products/">Products</a> / Fox Fur</div>
   </div>
 </div>
 
@@ -136,13 +137,14 @@
   <div class="container">
     <div class="product-detail">
       <div class="product-img">
-        <img src="https://www.umaygarment.com/images/categories/fox-fur-coats-banner.webp" alt="Real Fox Fur Coat — Full Length, Vest, Custom OEM">
+        <img src="/images/blog/fox-vs-raccoon/brown-fox-fur-jacket-front.webp" alt="Brown fox-fur jacket shown from the front on a white background">
       </div>
       <div class="product-info">
-        <span class="badge badge-gold" style="margin-bottom:12px;">⭐ Bestseller</span>
+        <span class="badge badge-gold" style="margin-bottom:12px;">OEM / ODM Reference Collection</span>
         <h2>Real Fox Fur Coat &amp; Vest Collection</h2>
-        <p>Premium silver fox, arctic fox, and red fox fur garments with natural luster and exceptional density. Our fox fur collection covers full-length coats, cropped jackets, fur vests, and detachable fur accessories — all available for custom OEM production.</p>
-        <p>Trusted by boutiques and fashion brands across Europe, the Americas, and beyond. Every piece is hand-inspected before shipment.</p>
+        <p>This collection organizes fox-fur outerwear references for B2B development, including full-length coats, cropped jackets, vests and detachable components. The formal material name, treatment, construction and label wording are confirmed from the records for each style.</p>
+        <p><strong>Cross-category style archive:</strong> the wider UMAY development library covers multiple outerwear categories. It is not a claim that every reference is current stock or belongs to fox fur. Availability, material identity, measurements and production terms are confirmed for the selected style before quotation.</p>
+        <p>Send a reference image, sketch, physical sample or tech pack. UMAY will review the intended structure, measurements, color direction, labels, packaging and order requirements before quoting.</p>
 
         <div class="tag-list">
           <span class="tag-pill">Silver Fox</span><span class="tag-pill">Arctic Fox</span><span class="tag-pill">Red Fox</span>
@@ -151,22 +153,21 @@
         </div>
 
         <table class="spec-table">
-          <tr><td>Material</td><td>Real Silver Fox / Arctic Fox / Red Fox Fur</td></tr>
-          <tr><td>Fur Structure</td><td>Long silky guard hair over dense underfur (fox guard hair is among the longest of commercial furs)</td></tr>
+          <tr><td>Material</td><td>Formal fox-fur category and required label wording are confirmed for each style from product-level records</td></tr>
+          <tr><td>Construction</td><td>Panel layout, hair direction, backing, lining, closure and measurements are recorded in the approved specification</td></tr>
           <tr><td>MOQ</td><td>Confirmed by style, color, material, labels and quantity</td></tr>
           <tr><td>Lead Time</td><td>Sample and bulk dates quoted after specification and material review</td></tr>
-          <tr><td>Size Range</td><td>XXS – 6XL (bust 80–120 cm, custom sizing available)</td></tr>
-          <tr><td>Colors</td><td>Natural (white/red/blue/silver/cross) + 50+ custom dye colors (Pantone matching)</td></tr>
-          <tr><td>Lining</td><td>Satin / Silk / Custom</td></tr>
-          <tr><td>Finishes</td><td>Natural full guard hair or dyed; full-length, cropped, vest, trim/hood styles</td></tr>
-          <tr><td>QC Process</td><td>8-step inspection: raw material → fur processing → tailoring → sewing → quality check → packaging; every piece hand-inspected</td></tr>
-          <tr><td>Care</td><td>Professional fur cleaning recommended; storage guidance provided with each order</td></tr>
+          <tr><td>Measurements</td><td>Provide body measurements, finished-garment measurements or a buyer size chart; the measuring method and tolerance are approved by style</td></tr>
+          <tr><td>Color</td><td>Natural or treated color wording and the physical color reference are confirmed before sampling</td></tr>
+          <tr><td>Lining</td><td>Composition, construction and color are confirmed in the style specification</td></tr>
+          <tr><td>QC</td><td>Incoming material, in-process construction and pre-shipment checks follow the buyer-approved checklist and defect standard</td></tr>
+          <tr><td>Care</td><td>Care wording is confirmed for the selected material and destination-market requirements</td></tr>
           <tr><td>Custom Options</td><td>Logo, label, hang tag, packaging</td></tr>
-          <tr><td>Shipping</td><td>Sea freight / Air freight / DHL/FedEx</td></tr>
+          <tr><td>Trade Terms</td><td>Shipping method, Incoterm and target delivery date are confirmed in the written quotation</td></tr>
         </table>
 
         <div class="cta-box">
-          <h4>Get Factory-Direct Price</h4>
+          <h4>Request a Style-Specific Quote</h4>
           <p>Send the style, material, measurements, quantity and destination for an itemized written quotation.</p>
           <a href="https://wa.me/8618857337355?text=Hello+Umay+Garment%2C+I+just+viewed+your+Fox+Fur+collection+and+would+like+to+get+a+custom+quote.+Can+we+chat%3F" class="btn btn-whatsapp" target="_blank" rel="noopener" style="display:block;text-align:center;">→ Quote Fox Fur on WhatsApp</a>
         </div>
@@ -185,7 +186,7 @@
     <p style="color:var(--text-soft);line-height:1.8;max-width:760px;margin-bottom:24px;">A complete brief gets you a faster, more accurate quote. Include these points with your first message — no need to be perfect, we will help you fill the gaps:</p>
     <div class="related-grid" style="grid-template-columns:repeat(2,1fr);gap:16px;">
       <div class="related-card"><div class="rc-body"><h4>① Style &amp; Reference</h4><p>Reference photos, sketches or a tech pack of the coat/vest design you want (length, collar, closure, pockets).</p></div></div>
-      <div class="related-card"><div class="rc-body"><h4>② Quantity &amp; Sizes</h4><p>Order quantity and size range (XXS–6XL or plus sizes) — tell us if you need custom sizing.</p></div></div>
+      <div class="related-card"><div class="rc-body"><h4>② Quantity &amp; Measurements</h4><p>Planned quantity plus body measurements, finished-garment measurements or your own size chart.</p></div></div>
       <div class="related-card"><div class="rc-body"><h4>③ Color &amp; Material</h4><p>Fox type preference (silver / arctic / red), natural or dyed, and target color (Pantone code or photo).</p></div></div>
       <div class="related-card"><div class="rc-body"><h4>④ Market &amp; Files</h4><p>Destination country (affects compliance and shipping) and any label/packaging/document requirements.</p></div></div>
     </div>
@@ -205,35 +206,51 @@
       <li><a href="/blog/fox-fur-vs-raccoon-fur-sourcing-guide" style="color:var(--gold);">Fox Fur vs Raccoon Fur: A Sourcing Comparison</a> — material, weight, warmth and price fit</li>
       <li><a href="/blog/private-label-fur-materials-guide" style="color:var(--gold);">How to Choose Materials for a Private Label Fur Collection</a> — fox vs raccoon vs leather vs shearling</li>
       <li><a href="/blog/blog2-how-to-choose-a-fur-factory" style="color:var(--gold);">How to Choose a Fur Garment Factory in China</a> — MOQ, sampling and QC checklist</li>
+      <li><a href="/blog/fox-fur-jacket-specification-guide" style="color:var(--gold);">How to Specify a Fox-Fur Jacket</a> — material records, color treatment, panel map and hidden construction</li>
+      <li><a href="/blog/fur-garment-moq-sampling-guide" style="color:var(--gold);">MOQ and Sampling Confirmation Guide</a> — what to settle in writing before a sample starts</li>
+      <li><a href="/blog/fur-coat-quality-inspection-checklist" style="color:var(--gold);">Fur Garment Quality Inspection Checklist</a> — buyer-approved incoming, in-process and pre-shipment checks</li>
     </ul>
   </div>
 </section>
 
-<!-- Full product image -->
-<img src="https://www.umaygarment.com/images/categories/fox-fur-coats-banner.webp" alt="Custom fox fur coat and vest collection" class="fi" loading="lazy">
+<section class="v7-cluster v7-cluster-warm" aria-labelledby="fox-reference-paths">
+  <div class="v7-cluster-inner">
+    <div class="v7-cluster-head">
+      <span class="v7-cluster-kicker">Photographed fox-fur paths</span>
+      <h2 id="fox-reference-paths">Compare Construction Before Requesting a Quote</h2>
+      <p>Open the closest photographed direction, then confirm the exact material record, measurements, lining, closure, quantity and labels for that style.</p>
+    </div>
+    <div class="v7-cluster-grid">
+      <a class="v7-link-card" href="/products/whole-fox-fur-long-coat-large-lapel"><span>Long coat reference</span><strong>Whole Fox Fur Long Coat with Large Lapel</strong><p>Review full-length proportion, panel direction and the oversized lapel before specifying measurements.</p><b>View photographed style →</b></a>
+      <a class="v7-link-card" href="/products/sheepskin-silver-fox-collar-jacket"><span>Cross-material reference</span><strong>Sheepskin Jacket with Silver Fox Collar</strong><p>Compare the leather body, cropped biker silhouette and oversized collar as separate specification inputs.</p><b>View photographed style →</b></a>
+      <a class="v7-link-card" href="/products/hooded-long-fox-fur-jacket"><span>Hooded reference</span><strong>Hooded Long Fox Fur Jacket</strong><p>Use the hood, panel layout, length and front-closure direction to prepare a style-specific brief.</p><b>View photographed style →</b></a>
+      <a class="v7-link-card" href="/products/long-fox-fur-jacket-front-closure"><span>Panelled reference</span><strong>Long Fox Fur Jacket with Front Closure</strong><p>Review the hip-length silhouette, full collar and clean front before confirming hidden construction.</p><b>View photographed style →</b></a>
+    </div>
+  </div>
+</section>
 
 <!-- RELATED PRODUCTS -->
 <section class="section section-warm">
   <div class="container">
     <div class="section-header">
       <span class="section-subtitle">Also Available</span>
-      <h2>Browse Other <em style="color:var(--primary);font-style:normal;">Fur Collections</em></h2>
+      <h2>Browse Other <em style="color:var(--primary);font-style:normal;">Outerwear Categories</em></h2>
     </div>
     <div class="related-grid">
       <a href="/products/raccoon-fur" class="related-card">
-        <img src="https://www.umaygarment.com/images/categories/raccoon-fur-coats-banner.webp" alt="Raccoon Fur">
+        <img src="/images/customization/raccoon-fur.webp" alt="Raccoon-fur material reference">
         <div class="rc-body"><h4>Raccoon Fur</h4><p>Jackets &amp; Coats</p></div>
       </a>
       <a href="/products/leather-jacket" class="related-card">
-        <img src="https://www.umaygarment.com/images/categories/leather-jackets-banner.webp" alt="Leather Jacket">
+        <img src="/images/products/sheepskin-fox/sheepskin-fox-jacket-black.webp" alt="Black leather jacket with fur trim">
         <div class="rc-body"><h4>Leather Jacket</h4><p>Genuine Leather</p></div>
       </a>
       <a href="/products/cashmere-sheep" class="related-card">
-        <img src="https://www.umaygarment.com/images/categories/cashmere-wool-shearling-banner.webp" alt="Cashmere Sheep">
-        <div class="rc-body"><h4>Cashmere &amp; Sheep</h4><p>Wool Shearling</p></div>
+        <img src="/images/products/mongolian-lamb/white-curly-lamb-jacket-front-1500.webp" alt="White curly-lamb jacket shown from the front">
+        <div class="rc-body"><h4>Shearling &amp; Curly Lamb</h4><p>Composition confirmed by style</p></div>
       </a>
       <a href="/products/faux-fur" class="related-card">
-        <img src="https://www.umaygarment.com/images/categories/faux-fur-coats-banner.webp" alt="Faux Fur">
+        <img src="/images/customization/faux-fur.webp" alt="Faux-fur material reference">
         <div class="rc-body"><h4>Faux Fur</h4><p>Composition by style</p></div>
       </a>
     </div>
@@ -242,10 +259,10 @@
 
 <footer class="footer"><div class="container">
   <div class="footer-grid">
-    <div><a href="/" style="display:inline-block;margin-bottom:14px;"><img src="https://www.umaygarment.com/images/brand/umay-garment-logo.webp" alt="Umay Garment" style="height:56px;width:auto;display:block;mix-blend-mode:multiply;"></a><p>OEM &amp; ODM fur and leather outerwear supplier in Jiaxing. Specifications and commercial terms are confirmed by style.</p><p style="margin-top:10px;color:var(--gold);font-style:italic;">"Umay, You May"</p></div>
-    <div><h4>Products</h4><ul class="footer-links"><li><a href="/products/fox-fur">Fox Fur Coats</a></li><li><a href="/products/raccoon-fur">Raccoon Fur</a></li><li><a href="/products/leather-jacket">Leather Jackets</a></li><li><a href="/products/cashmere-sheep">Cashmere &amp; Sheep</a></li><li><a href="/products/faux-fur">Faux Fur</a></li></ul></div>
+    <div><a href="/" style="display:inline-block;margin-bottom:14px;"><img src="/images/brand/umay-garment-logo.webp" alt="Umay Garment" style="height:56px;width:auto;display:block;mix-blend-mode:multiply;"></a><p>OEM &amp; ODM fur and leather outerwear supplier in Jiaxing. Specifications and commercial terms are confirmed by style.</p><p style="margin-top:10px;color:var(--gold);font-style:italic;">"Umay, You May"</p></div>
+    <div><h4>Products</h4><ul class="footer-links"><li><a href="/products/fox-fur">Fox Fur Coats</a></li><li><a href="/products/raccoon-fur">Raccoon Fur</a></li><li><a href="/products/leather-jacket">Leather Jackets</a></li><li><a href="/products/cashmere-sheep">Shearling &amp; Curly Lamb</a></li><li><a href="/products/faux-fur">Faux Fur</a></li></ul></div>
     <div><h4>Company</h4><ul class="footer-links"><li><a href="/about">About Us</a></li><li><a href="/#oem">OEM &amp; ODM</a></li><li><a href="/#faq">FAQ</a></li><li><a href="/#inquiry">Contact</a></li></ul></div>
-    <div><h4>Contact Cathy</h4><ul class="footer-links"><li><a>Jiaxing, Zhejiang, China</a></li><li><a href="mailto:cathy@umaygarment.com">cathy@umaygarment.com</a></li><li><a href="https://wa.me/8618857337355?text=Hello+Umay+Garment%2C+I+just+viewed+your+Fox+Fur+collection+and+would+like+to+get+a+custom+quote.+Can+we+chat%3F" target="_blank">WhatsApp: +86 188 5733 7355</a></li></ul></div>
+    <div><h4>Contact Cathy</h4><ul class="footer-links"><li><a>Jiaxing, Zhejiang, China</a></li><li><a href="mailto:cathy@umaygarment.com">cathy@umaygarment.com</a></li><li><a href="https://wa.me/8618857337355?text=Hello+Umay+Garment%2C+I+just+viewed+your+Fox+Fur+collection+and+would+like+to+get+a+custom+quote.+Can+we+chat%3F" target="_blank" rel="noopener">WhatsApp: +86 188 5733 7355</a></li></ul></div>
   </div>
   <div class="footer-bottom"><p>&copy; 2026 Jiaxing Umay Garment Co., Ltd. All Rights Reserved.</p></div>
 </div></footer>

@@ -491,7 +491,7 @@ h3 { font-size:1.1rem; }
   border:1px dashed var(--border); border-radius:6px;
   font-size:0.85rem; color:var(--text-muted); background:var(--bg-warm);
 }
-.form-submit { width:100%; padding:16px; font-size:1rem; font-weight:700; margin-top:4px; }
+.form-submit { width:100%; min-width:0; padding:16px; font-size:1rem; font-weight:700; margin-top:4px; white-space:normal; line-height:1.35; text-align:center; justify-content:center; }
 .form-note { text-align:center; font-size:0.78rem; color:var(--text-muted); margin-top:10px; }
 
 /* ============================================
