@@ -1,3 +1,6 @@
 .status-box,.review-alert{border:1px solid #d8c7a7;background:#fff8e9;border-radius:6px;padding:15px 17px;margin:18px 0;color:#52432b}
 .status-box p,.review-alert p{margin-top:6px}.risk-note{border-left:4px solid #a16833;background:#fff;padding:13px 15px;margin-top:20px}.risk-note p{margin-top:5px}.review-actions{margin-top:24px}.review-table{width:100%;border-collapse:collapse;font-size:14px}.review-table th,.review-table td{padding:13px 12px;border-bottom:1px solid #e8e4dd;text-align:left;vertical-align:top}.review-table th{background:#faf8f4}.table-scroll{overflow:auto}.batch-0830 .card-tag{color:#76551f}.batch-0830 .card-specs{grid-template-columns:1fr 1fr}.batch-0830 .card-img img{object-fit:contain;background:#faf8f4}.filter-inner{flex-wrap:wrap}.filter-btn{white-space:nowrap}
 @media(max-width:760px){.review-table{font-size:12px}.review-table th,.review-table td{padding:9px 7px}.review-actions{display:grid}.review-actions .btn{width:100%}.batch-0830 .card-specs{grid-template-columns:1fr}}
+
+
+.quote-brief{margin:24px 0;padding:16px 18px;border-left:4px solid #9b572d;background:#fff8ee;color:#4d4339;line-height:1.65}.quote-brief strong{color:#2e251d}
