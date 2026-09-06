@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+<title>Одежда из меха и кожи на заказ | Коллекция OEM/ODM | UMAY</title>
+<meta name="description" content="Каталог верхней одежды UMAY из меха, овчины и кожи на заказ для private label: кастомизация, размеры, цвета, маркировка и упаковка по модели.">
+<link rel="canonical" href="https://www.umaygarment.com/ru/products/">
+<style>
+  :root{
+    --ink:#2C2416;--muted:#6b6254;--cream:#F9F6F0;--paper:#fff;
+    --gold:#B8965A;--gold-light:#D4B078;--brown:#5a3e28;
+    --line:#e6dfd2;--green:#25D366;
+    --shadow:0 8px 32px rgba(44,36,22,.08);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{color:var(--ink);background:var(--cream);font:16px/1.7 Inter,ui-sans-serif,system-ui,-apple-system,sans-serif}
+  a{color:var(--gold);text-decoration:none}
+  a:hover{color:var(--gold-light)}
+
+  /* NAV */
+  .topbar{background:var(--brown);color:#fff;text-align:center;padding:9px 24px;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+  .site-nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:100}
+  .nav-inner{max-width:1180px;margin:0 auto;padding:0 24px;min-height:66px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+  .logo{display:inline-flex;align-items:center;flex:0 0 auto;color:var(--ink)}
+  .logo img{display:block;width:48px;height:48px;object-fit:contain}
+  .nav-links{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+  .nav-links a{color:#4f463b;font-size:14px;font-weight:600}
+  .nav-links a:hover{color:var(--gold)}
+  .nav-links .quote-btn{background:var(--brown);color:#fff;padding:9px 18px;border-radius:6px;font-weight:700}
+  .nav-links .quote-btn:hover{background:var(--gold);color:#fff}
+
+  /* HERO */
+  .hero{background:linear-gradient(135deg,#2C2416 0%,#5a3e28 60%,#B8965A 100%);color:#fff;padding:64px 24px 52px;text-align:center}
+  .hero-inner{max-width:760px;margin:0 auto}
+  .hero-badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);border-radius:20px;padding:5px 18px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:18px}
+  .hero h1{font-size:clamp(28px,4vw,48px);font-weight:800;line-height:1.15;margin-bottom:14px}
+  .hero p{color:rgba(255,255,255,.82);font-size:17px;margin-bottom:28px}
+  .hero-stats{display:flex;justify-content:center;gap:40px;flex-wrap:wrap}
+  .hero-stats .stat{text-align:center}
+  .hero-stats .stat-v{font-size:1.5rem;font-weight:800;display:block}
+  .hero-stats .stat-l{font-size:12px;color:rgba(255,255,255,.65);text-transform:uppercase;letter-spacing:.08em}
+
+  /* FILTER BAR */
+  .filter-bar{background:#fff;border-bottom:1px solid var(--line);padding:14px 24px}
+  .filter-inner{max-width:1180px;margin:0 auto;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .filter-label{font-size:13px;font-weight:700;color:var(--muted);margin-right:4px}
+  .filter-btn{padding:6px 16px;border:1px solid var(--line);border-radius:20px;background:#fff;font-size:13px;font-weight:600;color:var(--muted);cursor:pointer;transition:all .2s}
+  .filter-btn:hover,.filter-btn.active{background:var(--brown);color:#fff;border-color:var(--brown)}
+
+  /* GRID */
+  .wrap{max-width:1180px;margin:0 auto;padding:48px 24px 80px}
+  .section-label{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+  .section-title{font-size:clamp(22px,3vw,32px);font-weight:800;margin-bottom:32px;color:var(--ink)}
+  .product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px}
+
+  /* CARD */
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:all .25s;display:flex;flex-direction:column}
+  .card:hover{box-shadow:var(--shadow);transform:translateY(-4px)}
+  .card-img{position:relative;overflow:hidden;aspect-ratio:4/3;background:#fff;display:grid;place-items:center}
+  .card-img>a{display:block;width:100%;height:100%;color:inherit}
+  .card-img img{width:100%;height:100%!important;object-fit:cover;object-position:center;display:block;transition:transform .4s}
+  .card-img.product-shot img{object-fit:contain;padding:10px;background:#fff}
+  .card:hover .card-img img{transform:scale(1.04)}
+  .card-badge{display:inline-flex;align-items:center;align-self:flex-start;background:var(--brown);color:#fff;font-size:11px;font-weight:700;padding:4px 11px;border-radius:20px;letter-spacing:.06em;margin-bottom:10px;white-space:nowrap}
+  .card-body{padding:20px;flex:1;display:flex;flex-direction:column}
+  .card-tag{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+  .card-title{font-size:17px;font-weight:700;color:var(--ink);margin-bottom:8px;line-height:1.3}
+  .card-title a{color:inherit;text-decoration:none}
+  .card-title a:hover{color:var(--gold)}
+  .card-desc{font-size:14px;color:var(--muted);line-height:1.6;margin-bottom:16px;flex:1}
+  .card-specs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:18px}
+  .spec-item{background:var(--cream);border-radius:8px;padding:8px 10px}
+  .spec-item .spec-k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block}
+  .spec-item .spec-v{font-size:13px;font-weight:700;color:var(--ink);display:block}
+  .card-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+  .ctag{font-size:11px;background:#F5EDE0;border:1px solid var(--line);border-radius:12px;padding:3px 10px;color:var(--muted)}
+  .card-cta{display:flex;align-items:center;justify-content:center;gap:9px;background:var(--brown);color:#fff;border-radius:8px;min-height:44px;padding:11px 14px;font-weight:700;font-size:14px;text-decoration:none;transition:background .2s,transform .2s;white-space:nowrap}
+  .card-cta::before{content:"";width:18px;height:18px;flex:0 0 18px;background:url('/images/icons/whatsapp-white.svg') center/contain no-repeat}
+  .card-cta:hover{background:var(--gold);color:#fff;transform:translateY(-1px)}
+  .card-cta>svg{display:none}
+  .card-detail-link{display:flex;align-items:center;justify-content:center;min-height:42px;margin-bottom:10px;padding:9px 14px;border:1px solid var(--brown);border-radius:8px;color:var(--brown);font-size:13px;font-weight:700;text-decoration:none}
+  .card-detail-link:hover{background:var(--brown);color:#fff}
+
+  /* CTA BANNER */
+  .cta-banner{background:linear-gradient(135deg,#2C2416,#5a3e28);border-radius:20px;padding:48px 40px;text-align:center;color:#fff;margin-top:56px}
+  .cta-banner h2{font-size:28px;font-weight:800;margin-bottom:10px;color:#fff}
+  .cta-banner p{color:rgba(255,255,255,.8);margin-bottom:28px;font-size:16px}
+  .cta-banner .btn-wa{display:inline-flex;align-items:center;gap:10px;background:var(--green);color:#fff;padding:14px 32px;border-radius:8px;font-weight:700;font-size:16px;text-decoration:none}
+  .cta-banner .btn-wa:hover{background:#1ebe5d;color:#fff}
+
+  /* FOOTER */
+  footer{background:#1a1208;color:rgba(255,255,255,.5);text-align:center;padding:28px 24px;font-size:13px}
+  footer a{color:var(--gold-light)}
+
+  @media(max-width:768px){
+    .hero-stats{gap:24px}
+    .product-grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+    .cta-banner{padding:32px 20px}
+    .nav-links{gap:12px}
+  }
+  @media(max-width:640px){
+    .topbar{padding:7px 12px;font-size:11px;letter-spacing:.03em}
+    .nav-inner{min-height:58px;padding:0 16px;gap:12px}
+    .logo img{width:40px;height:40px}
+    .nav-links{gap:0;flex-wrap:nowrap}
+    .nav-links a{display:none}
+    .nav-links .quote-btn{display:inline-flex;padding:8px 14px}
+    .wrap{padding:32px 16px 64px}
+    .section-title{margin-bottom:22px}
+    .product-grid{grid-template-columns:1fr;gap:18px}
+    .card-body{padding:18px}
+    .card-title{font-size:19px}
+    .card-desc{font-size:14px;line-height:1.55}
+    .card-img.product-shot img{padding:14px}
+  }
+  @media(max-width:480px){
+    .product-grid{grid-template-columns:1fr}
+    .card-specs{grid-template-columns:1fr 1fr}
+  }
+.batch-0827 .card-img{flex-shrink:0;display:block}.batch-0827 .card-img>a{position:absolute;inset:0;min-width:0;min-height:0}.batch-0827 .card-title{min-height:3.9em}.batch-0827 .card-specs{min-height:94px}.batch-0827 .card-specs .spec-v{line-height:1.45}.batch-0827 .card-desc{min-height:5em}@media(max-width:640px){.batch-0827 .card-title,.batch-0827 .card-desc,.batch-0827 .card-specs{min-height:0}}
+.batch-0827 .card-title{min-height:3.9em}.batch-0827 .card-desc{min-height:5.8em}.batch-0827 .card-specs{min-height:188px}.batch-0827 .card-specs .spec-v{line-height:1.45}@media(max-width:640px){.batch-0827 .card-title,.batch-0827 .card-desc,.batch-0827 .card-specs{min-height:0}}
+</style>
+<style id="batch-0823-styles">
+  .card{height:100%}.card-title{min-height:2.65em}.card-desc{min-height:6.7em}
+  .new-batch-intro{display:flex;align-items:center;justify-content:space-between;gap:28px;margin:0 0 28px;padding:24px 26px;border:1px solid var(--line);border-radius:14px;background:#fff}.new-batch-intro h3{font-size:1.22rem;margin:2px 0 6px}.new-batch-intro p{max-width:780px;color:var(--muted);font-size:.92rem}.intro-kicker{color:var(--gold);font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.new-batch-intro>a{flex:0 0 auto;padding:10px 14px;border:1px solid var(--brown);border-radius:8px;color:var(--brown);font-size:.82rem;font-weight:700;text-align:center}.new-batch-intro>a:hover{background:var(--brown);color:#fff}
+  .intent-faq{margin-top:56px;padding:34px;border:1px solid var(--line);border-radius:18px;background:#fff}.intent-faq>h2{font-size:clamp(22px,3vw,30px);margin-bottom:22px}.intent-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.intent-grid article{padding:18px;border-radius:10px;background:var(--cream)}.intent-grid h3{font-size:.96rem;line-height:1.45;margin-bottom:7px}.intent-grid p{color:var(--muted);font-size:.84rem;line-height:1.65}
+  @media(max-width:760px){.new-batch-intro{align-items:flex-start;flex-direction:column}.new-batch-intro>a{width:100%}.intent-grid{grid-template-columns:1fr}.card-title,.card-desc{min-height:0}}
+</style>
+<script src="/js/analytics.js" defer></script>
+<style>.card.batch-0829{display:flex;flex-direction:column;height:100%}.batch-0829 .card-body{display:flex;flex-direction:column;flex:1}.batch-0829 .card-detail-link{margin-top:auto}</style><link rel="stylesheet" href="/css/0830-product-guide.css">
+<link rel="stylesheet" href="/css/0830-v7-link-clusters.css">
+<style>
+.category-paths{background:#f6f1e8;border-bottom:1px solid #e3d7c4;padding:clamp(34px,5vw,64px) 20px}.category-paths-inner{max-width:1180px;margin:0 auto}.category-paths-copy{max-width:760px;margin-bottom:22px}.category-paths .eyebrow{display:block;color:#9a6b23;font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}.category-paths h2{margin:0 0 8px;font-size:clamp(1.65rem,3vw,2.45rem);line-height:1.15}.category-paths p{margin:0;color:#5d5a53}.category-path-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}.category-path{display:flex;min-width:0;min-height:126px;flex-direction:column;justify-content:space-between;padding:18px;border:1px solid #ddcfb8;border-radius:12px;background:#fff;color:#24211d;text-decoration:none;transition:transform .2s,border-color .2s,box-shadow .2s}.category-path:hover{transform:translateY(-2px);border-color:#b58a4d;box-shadow:0 10px 24px rgba(67,52,29,.08)}.category-path span{font-size:.72rem;color:#9a6b23;font-weight:800;letter-spacing:.08em}.category-path strong{font-size:1rem;line-height:1.2}.category-path small{color:#6b665d;line-height:1.35}.category-path:focus-visible{outline:3px solid #bf9251;outline-offset:3px}@media(max-width:900px){.category-path-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.category-paths{padding:30px 16px}.category-path-grid{grid-template-columns:1fr}.category-path{min-height:104px}}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"CollectionPage","@id":"https://www.umaygarment.com/ru/products/#collection","url":"https://www.umaygarment.com/ru/products/","name":"Коллекция одежды из меха и кожи на заказ","mainEntity":{"@id":"https://www.umaygarment.com/ru/products/#core-categories"}},
+    {"@type":"ItemList","@id":"https://www.umaygarment.com/ru/products/#core-categories","name":"Основные категории продукции","itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Верхняя одежда из меха лисы","url":"https://www.umaygarment.com/ru/products/fox-fur"},
+      {"@type":"ListItem","position":2,"name":"Верхняя одежда из меха енота","url":"https://www.umaygarment.com/ru/products/raccoon-fur"},
+      {"@type":"ListItem","position":3,"name":"Кожаные куртки","url":"https://www.umaygarment.com/ru/products/leather-jacket"},
+      {"@type":"ListItem","position":4,"name":"Shearling and Curly Lamb","url":"https://www.umaygarment.com/ru/products/cashmere-sheep"},
+      {"@type":"ListItem","position":5,"name":"Верхняя одежда из искусственного меха","url":"https://www.umaygarment.com/ru/products/faux-fur"}
+    ]}
+  ]
+}
+</script>
+<style id="products-confirmed-layout-v1">.category-paths{padding:24px 20px}.wrap{padding-top:28px}.batch-0901 .card-img>a{position:absolute;inset:0}.batch-0901 .card-img.product-shot img{object-fit:contain!important;object-position:50% 50%!important}.batch-0901 .card-detail-link{margin-top:auto}</style><link rel="stylesheet" href="/css/combined-catalog.css"><style id="batch-0902-fullsite-preview">#productGrid .card[data-detail-href]{cursor:pointer}#productGrid .card[data-detail-href]:focus-visible{outline:3px solid #bf9251;outline-offset:3px}#productGrid .card .card-img>a{position:absolute!important;inset:0!important;display:block;width:100%;height:100%}#productGrid .card .card-img img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:50% 50%!important;padding:10px;background:#fff}#productGrid .card:hover .card-img img{transform:none!important}.batch-0902{height:100%}.batch-0902 .card-body{display:flex;flex-direction:column;flex:1}.batch-0902 .card-title{min-height:2.65em}.batch-0902 .card-desc{min-height:6.7em}.batch-0902 .card-tags{min-height:54px}.batch-0902 .card-detail-link{margin-top:auto}@media(max-width:640px){.batch-0902 .card-title,.batch-0902 .card-desc,.batch-0902 .card-tags{min-height:0}}</style><style id="batch-0903-fullsite-preview">#productGrid .card-img>a{position:absolute!important;inset:0!important;display:block;width:100%;height:100%}#productGrid .card-img img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:50% 50%!important;padding:10px;background:#fff}#productGrid .card:hover .card-img img{transform:none!important}.batch-0903{height:100%}.batch-0903 .card-body{display:flex;flex-direction:column;flex:1}.batch-0903 .card-title{min-height:2.65em}.batch-0903 .card-desc{min-height:6.7em}.batch-0903 .card-tags{min-height:54px}.batch-0903 .card-detail-link{margin-top:auto}@media(max-width:640px){.batch-0903 .card-title,.batch-0903 .card-desc,.batch-0903 .card-tags{min-height:0}}</style><link rel="stylesheet" href="/css/language-switch.css">
+
+  <link rel="alternate" hreflang="en" href="https://www.umaygarment.com/products/">
+  <link rel="alternate" hreflang="es" href="https://www.umaygarment.com/es/products/">
+  <link rel="alternate" hreflang="ru" href="https://www.umaygarment.com/ru/products/">
+  <link rel="alternate" hreflang="x-default" href="https://www.umaygarment.com/products/">
+<link rel="stylesheet" href="/css/unified-footer.css"></head>
+<body>
+
+<div class="topbar">Референсные модели · Индивидуальные размеры · Private label</div>
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="/ru/" class="logo" aria-label="Главная UMAY Garment"><img src="/images/brand/umay-garment-logo.webp" width="48" height="48" alt="UMAY Garment"></a>
+    <div class="nav-links">
+      <a href="/ru/products/" style="color:var(--gold)">Продукция</a>
+      <a href="/ru/#oem">OEM и ODM</a>
+      <a href="/ru/#faq">Вопросы</a>
+      <a href="/ru/blog/">Руководства</a>
+      <a href="/ru/#inquiry" class="quote-btn">Запросить расчёт</a>
+    </div>
+  <details class="umay-language-switch"><summary aria-label="Выбрать язык"><span class="locale-long">Русский</span><span class="locale-short">RU</span><span aria-hidden="true" class="locale-arrow">▾</span></summary><div class="umay-language-options"><a href="/products/" lang="en" hreflang="en"><span>English</span><small>EN</small></a><a href="/es/products/" lang="es" hreflang="es"><span>Español</span><small>ES</small></a><a href="/ru/products/" lang="ru" hreflang="ru" aria-current="page" class="is-current"><span>Русский</span><small>RU</small></a></div></details></div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <span class="hero-badge">Полная коллекция · B2B-разработка на заказ</span>
+    <h1>Одежда из меха и кожи на заказ<br>Коллекция изделий</h1>
+    <p>OEM/ODM · Референсные модели · Индивидуальные размеры, маркировка и упаковка</p>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-v">Гибкие</span><span class="stat-l">Варианты проекта</span></div>
+      <div class="stat"><span class="stat-v">На заказ</span><span class="stat-l">Размеры</span></div>
+      <div class="stat"><span class="stat-v">Private label</span><span class="stat-l">Маркировка и упаковка</span></div>
+      <div class="stat"><span class="stat-v">Оригинальные</span><span class="stat-l">Фотографии изделий</span></div>
+    </div>
+  </div>
+</div>
+
+<section class="category-paths" aria-label="Категории продукции">
+  <div class="category-paths-inner">
+    <div class="category-path-grid">
+      <a class="category-path" href="/ru/products/fox-fur"><span>01 · НАТУРАЛЬНЫЙ МЕХ</span><strong>Верхняя одежда из меха лисы</strong><small>Пальто, куртки, панели и варианты отделки</small></a>
+      <a class="category-path" href="/ru/products/raccoon-fur"><span>02 · НАТУРАЛЬНЫЙ МЕХ</span><strong>Верхняя одежда из меха енота</strong><small>Куртки, рукава, воротники и комбинированные материалы</small></a>
+      <a class="category-path" href="/ru/products/leather-jacket"><span>03 · КОЖА</span><strong>Кожаные куртки</strong><small>Косухи, укороченные модели, пояса и меховая отделка</small></a>
+      <a class="category-path" href="/ru/products/cashmere-sheep"><span>04 · ОВЧИНА</span><strong>Овчина и кудрявый ягнёнок</strong><small>Двусторонняя овчина, кудрявый ягнёнок и шерстяные поверхности</small></a>
+      <a class="category-path" href="/ru/products/faux-fur"><span>05 · ИСКУССТВЕННЫЙ МЕХ</span><strong>Верхняя одежда из искусственного меха</strong><small>Фактура, принт, цвет и варианты private label</small></a>
+    </div>
+  </div>
+</section>
+<div class="filter-bar" id="product-filters">
+  <div class="filter-inner">
+    <span class="filter-label">Фильтр:</span>
+    <button class="filter-btn active" onclick="filterCards('all')">Вся продукция</button>
+    <button class="filter-btn" onclick="filterCards('cape')">Кейпы</button>
+    <button class="filter-btn" onclick="filterCards('shawl')">Шали</button>
+    <button class="filter-btn" onclick="filterCards('vest')">Жилеты</button>
+    <button class="filter-btn" onclick="filterCards('sleeves')">Рукава и детали</button>
+    <button class="filter-btn" onclick="filterCards('coat-jacket')">Пальто и куртки</button>
+    <button class="filter-btn" onclick="filterCards('real-fur')">Натуральный мех</button>
+    <button class="filter-btn" onclick="filterCards('rabbit')">Кролик</button>
+    <button class="filter-btn" onclick="filterCards('mink')">Норка</button>
+    <button class="filter-btn" onclick="filterCards('leather')">Кожа</button>
+    <button class="filter-btn" onclick="filterCards('faux')">Искусственный мех</button>
+    <button class="filter-btn" onclick="filterCards('new')">Новинки</button>
+  </div>
+</div>
+
+<div class="wrap">
+<div class="product-grid" id="productGrid"><article class="card localized-initial" data-selling-tags="structured" data-cat="real-fur coat-jacket new"><div class="card-img product-shot"><a href="/ru/products/whole-fox-fur-long-coat-large-lapel" aria-label="Подробнее: Длинное пальто из меха лисы с широким лацканом"><img src="/images/products/0823/whole-fox-fur-long-coat-large-lapel/view-01-styled-reference.webp" loading="lazy" alt="Длинное пальто из меха лисы с широким лацканом"></a></div><div class="card-body"><span class="card-badge">Референсная модель</span><span class="card-tag">Мех лисы</span><h3 class="card-title"><a href="/ru/products/whole-fox-fur-long-coat-large-lapel">Длинное пальто из меха лисы с широким лацканом</a></h3><p class="card-desc">Референсное длинное пальто из меха лисы с широким лацканом, представленное в золотистом и серебристом цветовых направлениях.</p><div class="card-tags"><span class="ctag">Мех лисы</span><span class="ctag">Длинное пальто</span><span class="ctag">Широкий лацкан</span><span class="ctag">OEM/ODM</span></div><a href="/ru/products/whole-fox-fur-long-coat-large-lapel" class="card-detail-link">Подробнее →</a><a href="https://wa.me/8618857337355?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20UMAY%20Garment.%20%D0%AF%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D0%B9%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7.%0A%D0%A0%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%3A%20%D0%94%D0%BB%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BF%D0%B0%D0%BB%D1%8C%D1%82%D0%BE%20%D0%B8%D0%B7%20%D0%BC%D0%B5%D1%85%D0%B0%20%D0%BB%D0%B8%D1%81%D1%8B%20%D1%81%20%D1%88%D0%B8%D1%80%D0%BE%D0%BA%D0%B8%D0%BC%20%D0%BB%D0%B0%D1%86%D0%BA%D0%B0%D0%BD%D0%BE%D0%BC%0A%D0%A3%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%2C%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D1%8B%2C%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%2C%20%D1%86%D0%B2%D0%B5%D1%82%2C%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D1%83%2C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%20%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F." class="card-cta" target="_blank" rel="noopener">Обсудить эту модель</a></div></article><article class="card localized-initial" data-selling-tags="structured" data-cat="leather coat-jacket new"><div class="card-img product-shot"><a href="/ru/products/long-double-face-shearling-trench-coat-belt" aria-label="Подробнее: Длинный тренч из двусторонней овчины с поясом"><img src="/images/products/0824/long-double-face-shearling-trench-coat-belt/view-01-color-options.webp" loading="lazy" alt="Длинный тренч из двусторонней овчины с поясом"></a></div><div class="card-body"><span class="card-badge">Референсная модель</span><span class="card-tag">Овчина и кудрявый ягнёнок</span><h3 class="card-title"><a href="/ru/products/long-double-face-shearling-trench-coat-belt">Длинный тренч из двусторонней овчины с поясом</a></h3><p class="card-desc">Референс длинного тренча из двусторонней овчины с крупным воротником, пуговицами, поясом в тон и накладными карманами.</p><div class="card-tags"><span class="ctag">Двусторонняя овчина</span><span class="ctag">Длинный тренч</span><span class="ctag">Крупный воротник</span><span class="ctag">Пояс</span></div><a href="/ru/products/long-double-face-shearling-trench-coat-belt" class="card-detail-link">Подробнее →</a><a href="https://wa.me/8618857337355?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20UMAY%20Garment.%20%D0%AF%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D0%B9%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7.%0A%D0%A0%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%3A%20%D0%94%D0%BB%D0%B8%D0%BD%D0%BD%D1%8B%D0%B9%20%D1%82%D1%80%D0%B5%D0%BD%D1%87%20%D0%B8%D0%B7%20%D0%B4%D0%B2%D1%83%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B5%D0%B9%20%D0%BE%D0%B2%D1%87%D0%B8%D0%BD%D1%8B%20%D1%81%20%D0%BF%D0%BE%D1%8F%D1%81%D0%BE%D0%BC%0A%D0%A3%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%2C%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D1%8B%2C%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%2C%20%D1%86%D0%B2%D0%B5%D1%82%2C%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D1%83%2C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%20%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F." class="card-cta" target="_blank" rel="noopener">Обсудить эту модель</a></div></article><article class="card localized-initial" data-selling-tags="structured" data-cat="real-fur leather coat-jacket new"><div class="card-img product-shot"><a href="/ru/products/black-leather-raccoon-fur-trim-jacket" aria-label="Подробнее: Чёрная кожаная куртка с отделкой из меха енота"><img src="/images/products/0823/black-leather-raccoon-fur-trim-jacket/view-01-front-view.webp" loading="lazy" alt="Чёрная кожаная куртка с отделкой из меха енота"></a></div><div class="card-body"><span class="card-badge">Референсная модель</span><span class="card-tag">Мех енота</span><h3 class="card-title"><a href="/ru/products/black-leather-raccoon-fur-trim-jacket">Чёрная кожаная куртка с отделкой из меха енота</a></h3><p class="card-desc">Референсная куртка из фактурной чёрной кожи с яркой отделкой из окрашенного меха енота цвета фуксии.</p><div class="card-tags"><span class="ctag">Фактурная кожа</span><span class="ctag">Отделка из меха енота</span><span class="ctag">Акцентный воротник</span><span class="ctag">Цвет на заказ</span></div><a href="/ru/products/black-leather-raccoon-fur-trim-jacket" class="card-detail-link">Подробнее →</a><a href="https://wa.me/8618857337355?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20UMAY%20Garment.%20%D0%AF%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D0%B9%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7.%0A%D0%A0%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%3A%20%D0%A7%D1%91%D1%80%D0%BD%D0%B0%D1%8F%20%D0%BA%D0%BE%D0%B6%D0%B0%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D1%81%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BA%D0%BE%D0%B9%20%D0%B8%D0%B7%20%D0%BC%D0%B5%D1%85%D0%B0%20%D0%B5%D0%BD%D0%BE%D1%82%D0%B0%0A%D0%A3%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%2C%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D1%8B%2C%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%2C%20%D1%86%D0%B2%D0%B5%D1%82%2C%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D1%83%2C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%20%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F." class="card-cta" target="_blank" rel="noopener">Обсудить эту модель</a></div></article><article class="card localized-initial" data-selling-tags="structured" data-cat="faux coat-jacket new"><div class="card-img product-shot"><a href="/ru/products/leopard-print-faux-fur-long-coat-belt" aria-label="Подробнее: Длинное пальто из искусственного меха с леопардовым принтом"><img src="/images/products/0825/leopard-print-faux-fur-long-coat-belt/view-01.webp" loading="lazy" alt="Длинное пальто из искусственного меха с леопардовым принтом"></a></div><div class="card-body"><span class="card-badge">Референсная модель</span><span class="card-tag">Искусственный мех</span><h3 class="card-title"><a href="/ru/products/leopard-print-faux-fur-long-coat-belt">Длинное пальто из искусственного меха с леопардовым принтом</a></h3><p class="card-desc">Референсное длинное пальто из искусственного меха с леопардовым принтом, широким лацканом и поясом из того же материала.</p><div class="card-tags"><span class="ctag">Искусственный мех</span><span class="ctag">Длинное пальто</span><span class="ctag">Леопардовый принт</span><span class="ctag">Пояс</span></div><a href="/ru/products/leopard-print-faux-fur-long-coat-belt" class="card-detail-link">Подробнее →</a><a href="https://wa.me/8618857337355?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20UMAY%20Garment.%20%D0%AF%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D0%B9%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7.%0A%D0%A0%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%3A%20%D0%94%D0%BB%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BF%D0%B0%D0%BB%D1%8C%D1%82%D0%BE%20%D0%B8%D0%B7%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BC%D0%B5%D1%85%D0%B0%20%D1%81%20%D0%BB%D0%B5%D0%BE%D0%BF%D0%B0%D1%80%D0%B4%D0%BE%D0%B2%D1%8B%D0%BC%20%D0%BF%D1%80%D0%B8%D0%BD%D1%82%D0%BE%D0%BC%0A%D0%A3%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%2C%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D1%8B%2C%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%2C%20%D1%86%D0%B2%D0%B5%D1%82%2C%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D1%83%2C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%20%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F." class="card-cta" target="_blank" rel="noopener">Обсудить эту модель</a></div></article><article class="card localized-initial" data-selling-tags="structured" data-cat="leather coat-jacket new"><div class="card-img product-shot"><a href="/ru/products/white-hooded-mongolian-lamb-fur-jacket" aria-label="Подробнее: Белая куртка с капюшоном из монгольского ягнёнка"><img src="/images/products/0823/white-hooded-mongolian-lamb-fur-jacket/view-01-front-view.webp" loading="lazy" alt="Белая куртка с капюшоном из монгольского ягнёнка"></a></div><div class="card-body"><span class="card-badge">Референсная модель</span><span class="card-tag">Овчина и кудрявый ягнёнок</span><h3 class="card-title"><a href="/ru/products/white-hooded-mongolian-lamb-fur-jacket">Белая куртка с капюшоном из монгольского ягнёнка</a></h3><p class="card-desc">Референсная куртка натурального белого оттенка с капюшоном и длинной кудрявой фактурой монгольского ягнёнка.</p><div class="card-tags"><span class="ctag">Монгольский ягнёнок</span><span class="ctag">Куртка с капюшоном</span><span class="ctag">Кудрявая фактура</span><span class="ctag">Размеры на заказ</span></div><a href="/ru/products/white-hooded-mongolian-lamb-fur-jacket" class="card-detail-link">Подробнее →</a><a href="https://wa.me/8618857337355?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20UMAY%20Garment.%20%D0%AF%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D0%B9%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7.%0A%D0%A0%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%3A%20%D0%91%D0%B5%D0%BB%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0%20%D1%81%20%D0%BA%D0%B0%D0%BF%D1%8E%D1%88%D0%BE%D0%BD%D0%BE%D0%BC%20%D0%B8%D0%B7%20%D0%BC%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%8F%D0%B3%D0%BD%D1%91%D0%BD%D0%BA%D0%B0%0A%D0%A3%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%2C%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D1%8B%2C%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%2C%20%D1%86%D0%B2%D0%B5%D1%82%2C%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D1%83%2C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%20%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F." class="card-cta" target="_blank" rel="noopener">Обсудить эту модель</a></div></article><article class="card localized-initial" data-selling-tags="structured" data-cat="leather real-fur coat-jacket new" data-sku="UMS-LTFX-023"><div class="card-img product-shot"><a href="/ru/products/belted-leather-coat-fox-fur-collar-cuffs" aria-label="Подробнее: Кожаное пальто с поясом, воротником и манжетами из меха лисы"><img src="/images/products/0828/belted-leather-coat-fox-fur-collar-cuffs/view-01-color-range.webp" loading="lazy" alt="Кожаное пальто с поясом, воротником и манжетами из меха лисы"></a></div><div class="card-body"><span class="card-badge">UMS-LTFX-023</span><span class="card-tag">Кожа</span><h3 class="card-title"><a href="/ru/products/belted-leather-coat-fox-fur-collar-cuffs">Кожаное пальто с поясом, воротником и манжетами из меха лисы</a></h3><p class="card-desc">Референсное пальто из натуральной кожи с поясом, глубоким воротником из меха лисы, объёмными манжетами и более коротким силуэтом, чем у длинных моделей.</p><div class="card-tags"><span class="ctag">Кожа + мех лисы</span><span class="ctag">Пальто с поясом</span><span class="ctag">Глубокий воротник</span><span class="ctag">Размеры на заказ</span></div><a href="/ru/products/belted-leather-coat-fox-fur-collar-cuffs" class="card-detail-link">Подробнее →</a><a href="https://wa.me/8618857337355?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20UMAY%20Garment.%20%D0%AF%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D0%B9%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7.%0A%D0%A0%D0%B5%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%3A%20%D0%9A%D0%BE%D0%B6%D0%B0%D0%BD%D0%BE%D0%B5%20%D0%BF%D0%B0%D0%BB%D1%8C%D1%82%D0%BE%20%D1%81%20%D0%BF%D0%BE%D1%8F%D1%81%D0%BE%D0%BC%2C%20%D0%B2%D0%BE%D1%80%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%BC%20%D0%B8%20%D0%BC%D0%B0%D0%BD%D0%B6%D0%B5%D1%82%D0%B0%D0%BC%D0%B8%20%D0%B8%D0%B7%20%D0%BC%D0%B5%D1%85%D0%B0%20%D0%BB%D0%B8%D1%81%D1%8B%0A%D0%A3%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%2C%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D1%8B%2C%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%2C%20%D1%86%D0%B2%D0%B5%D1%82%2C%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D1%83%2C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%20%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F." class="card-cta" target="_blank" rel="noopener">Обсудить эту модель</a></div></article>
+</div><!-- /product-grid -->
+
+  <!-- 0823 INTENT Вопросы START -->
+<section class="intent-faq" aria-labelledby="custom-manufacturer-faq"><p class="section-label">Краткие ответы покупателям</p><h2 id="custom-manufacturer-faq">Вопросы о разработке верхней одежды на заказ</h2><div class="intent-grid"><article><h3>Как сравнить варианты разработки верхней одежды на заказ?</h3><p>Начните с пяти основных категорий, затем проверьте по каждой модели размеры, сведения о материале, объём private label и письменные условия заказа.</p></article><article><h3>Поставщик может проверить мой референс или техпак?</h3><p>Отправьте референс, эскиз, физический образец или техпак для проверки возможности разработки. Принятый объём работ подтверждается письменно.</p></article><article><h3>Какие данные нужны для расчёта private label?</h3><p>Укажите материал, готовые размеры или таблицу размеров, расцветки, размещение бренда, упаковку, количество и пункт назначения.</p></article><article><h3>Можно изменить существующую модель меховой или кожаной куртки?</h3><p>Да. Возьмите фото референса и адаптируйте посадку, цвет, подкладку, застёжку, маркировку и упаковку под свой бренд.</p></article></div></section>
+<!-- 0823 INTENT Вопросы END -->
+
+<div class="cta-banner">
+    <h2>Не нашли нужную модель?</h2>
+    <p>Отправьте Cathy референс, эскиз, физический образец или техпак. Мы проверим материал, конструкцию, размеры и целевое количество для индивидуального расчёта.</p>
+    <a href="https://wa.me/8618857337355?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20UMAY%20Garment.%20%D0%AF%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B9%20%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D0%B9%20%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D1%8B%20%D0%BD%D0%B0%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7.%0A%D0%A3%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5%20%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%2C%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D1%8B%2C%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%2C%20%D1%86%D0%B2%D0%B5%D1%82%2C%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D1%83%2C%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D1%83%20%D0%B8%20%D0%BF%D1%83%D0%BD%D0%BA%D1%82%20%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F." class="btn-wa" target="_blank" rel="noopener">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+      Написать Cathy в WhatsApp
+    </a>
+  </div>
+</div>
+
+
+  <section class="localized-section warm v11-products-help"><div class="localized-wrap"><div class="section-heading"><span class="localized-kicker">Как пользоваться коллекцией</span><h2>Отобранные модели для начала проекта OEM/ODM</h2><p>В русской версии собраны шесть моделей с полной спецификацией. Это не ограничивает возможности производства: можно выбрать референс UMAY или прислать собственный дизайн. Коллекция расширяется поэтапно после завершения перевода и внутренних ссылок для каждой страницы.</p></div><div class="info-grid three"><article><h3>1. Выберите направление</h3><p>Сравните мех лисы, енота, кожу, овчину, кудрявого ягнёнка и искусственный мех с помощью пяти фильтров.</p></article><article><h3>2. Опишите спецификацию</h3><p>Укажите материал, цвет, размеры, конструкцию, количество, маркировку, упаковку и пункт назначения. Карточки разделяют видимые факты и параметры для подтверждения.</p></article><article><h3>3. Запросите образец и расчёт</h3><p>Расчёт готовится по проекту без фиксированной публичной цены. Можно прислать фото, эскиз, образец или техпак.</p></article></div><div class="related-grid compact-links"><a href="/ru/materials-customization"><strong>Сравнить материалы</strong><span>Материал, цвет, размеры и брендинг.</span></a><a href="/ru/blog/fur-garment-moq-sampling-guide"><strong>Подготовить MOQ и образец</strong><span>Данные для расчёта и утверждения.</span></a><a href="/ru/about"><strong>Процесс работы UMAY</strong><span>Ответственность, инспекция и подтверждённые условия.</span></a></div></div></section><footer class="umay-unified-footer"><div class="umay-footer-inner"><div class="umay-footer-grid"><div class="umay-footer-brand-column"><a class="umay-footer-brand-lockup" href="/ru/" aria-label="UMAY Garment"><span class="umay-footer-logo-frame"><img src="/images/brand/umay-garment-logo.webp" alt="UMAY Garment" width="92" height="64"></span><span class="umay-footer-brand-copy"><strong>Jiaxing Umay Garment Co., Ltd.</strong><small>OEM/ODM · Private label</small></span></a><p>Верхняя одежда из меха, кожи и искусственного меха на заказ для брендов, бутиков и оптовых покупателей.</p></div><nav class="umay-footer-column" aria-label="Разделы"><strong>Разделы</strong><a href="/ru/products/">Продукция</a><a href="/ru/materials-customization">Материалы и кастомизация</a><a href="/ru/about">О компании</a></nav><nav class="umay-footer-column" aria-label="Руководства для закупщиков"><strong>Руководства для закупщиков</strong><a href="/ru/blog/fox-fur-jacket-specification-guide">Спецификация изделий из меха лисы</a><a href="/ru/blog/fur-garment-moq-sampling-guide">MOQ и образцы</a><a href="/ru/blog/fur-trim-outerwear-specification-guide">Спецификация меховой отделки</a></nav><div class="umay-footer-column umay-footer-contact"><strong>Контакт: Cathy</strong><span>Цзясин, Чжэцзян, Китай</span><a href="mailto:cathy@umaygarment.com">cathy@umaygarment.com</a><a href="https://wa.me/8618857337355" target="_blank" rel="noopener">WhatsApp: +86 188 5733 7355</a></div></div><div class="umay-footer-bottom"><span>© 2026 Jiaxing Umay Garment Co., Ltd.</span><span>Все права защищены.</span></div></div></footer>
+
+<script>
+function filterCards(cat) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  document.querySelectorAll('.card').forEach(card => {
+    if (cat === 'all' || card.dataset.cat.includes(cat)) {
+      card.style.display = '';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>
+<script id="product-card-navigation">(()=>{document.querySelectorAll('#productGrid .card').forEach((card)=>{const href=card.querySelector('.card-detail-link')?.getAttribute('href')||card.querySelector('.card-title a')?.getAttribute('href')||card.querySelector('.card-img a')?.getAttribute('href');if(!href)return;card.dataset.detailHref=href;card.tabIndex=0;card.setAttribute('role','link');card.addEventListener('click',(event)=>{if(event.target.closest('a,button,input,select,textarea,label'))return;location.href=href});card.addEventListener('keydown',(event)=>{if(event.target!==card||!['Enter',' '].includes(event.key))return;event.preventDefault();location.href=href})})})();</script></body>
+</html>

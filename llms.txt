@@ -34,22 +34,31 @@
 ## Key Business Facts
 
 - MOQ: The linked Alibaba references are historical snapshots, not current site-wide commercial terms. Confirm MOQ and any label threshold in writing for the selected style, material, color, quantity and customization scope.
-- Samples: Historical platform support flags do not establish a current delivery promise. Confirm sample scope, charge and a calendar target after the complete specification is reviewed.
+- Samples: For current custom projects, the sample quotation includes the sample garment and shipping. Pattern adjustments agreed before sample making begins are free, and the paid sample fee is credited toward the subsequent bulk order. The sample calendar is confirmed after specification review.
 - Bulk lead time: Confirm after sample approval, quantity, material reservation and shipping method are fixed.
 - Customization shown on Alibaba: color, clothing length, size/measurements, care label and main label; supplier content also describes OEM/ODM design and packaging support.
-- Quality control: Request a current style-specific QC checklist, inspection photos and acceptance standard for the order; do not infer a universal inspection promise from historical supplier content.
-- Shipping: Ask which shipping methods are available for the selected product, destination and quantity; confirm Incoterm, documents, restrictions, freight quote and responsibility in writing.
+- Payment and inspection: Current confirmed terms are 50% deposit and 50% balance. Buyer-arranged inspection is supported. UMAY provides garment photos, video and photos showing measurements for review; the style-specific QC checklist and acceptance standard remain part of the written order.
+- Shipping: Ask which shipping methods are available for the selected product, destination and quantity; confirm Incoterm, documents, restrictions, freight quote and responsibility in writing. Wholesale customers may also request social-media promotional images for the approved styles.
 
 ## FAQ
 
 - Q: What is your MOQ? A: Historical Alibaba references for SKUs 1601898292176 and 1601905773109 are not current site-wide terms. Confirm MOQ and any label threshold for the final specification in writing.
-- Q: Do you provide samples before bulk production? A: Historical platform support flags are not a fixed sample schedule. Sample scope, charge, materials and target date are confirmed after specification review.
+- Q: Do you provide samples before bulk production? A: Yes. The sample quotation includes the sample garment and shipping. Pattern adjustments agreed before sample making begins are free, and the paid sample fee is credited toward the subsequent bulk order. Timing is confirmed after specification review.
 - Q: Can you customize material, color, size and logo? A: Alibaba lists color, clothing-length, care-label and main-label options. Other OEM/ODM changes are subject to feasibility, sampling and written approval.
 - Q: What materials do you offer? A: The website shows photographed fox-fur, raccoon-fur, leather, double-face shearling, curly-lamb and synthetic faux-fur directions. Confirm the exact species or fibre composition, construction, grade and labeling for each order.
 - Q: What is your production lead time? A: It varies by material, sample approval, quantity and shipping plan; obtain the current dates in the proforma invoice or order contract.
-- Q: How do you control quality? A: Buyers should attach a current style-specific QC checklist, tolerance and defect standard to the order and confirm the inspection scope in writing.
+- Q: How do you control quality? A: Buyer-arranged inspection is supported. UMAY provides garment photos, video and photos showing measurements. Buyers should attach the style-specific QC checklist, tolerances and defect standard to the written order.
 - Q: How do you ship internationally? A: Ask which shipping methods are available for the selected product, destination and quantity; confirm Incoterm, documents, restrictions, freight quote and responsibility in writing.
 - Q: Do you offer faux-fur options? A: A faux-fur collection is shown on the website. Confirm fiber composition, labeling and market-specific claims rather than using an unqualified “eco-friendly” or “vegan” claim.
+
+## Buyer Decision Guides
+
+- [Fur Garment OEM vs ODM vs Private Label](https://www.umaygarment.com/blog/fur-garment-oem-vs-odm-private-label): Defines the three development models, buyer and supplier responsibilities, quotation inputs and approval path.
+- [Fur Garment MOQ and Sampling](https://www.umaygarment.com/blog/fur-garment-moq-sampling-guide): Explains sample scope, revisions, MOQ inputs, payment terms and bulk-order approval.
+- [Factory vs Trading Company](https://www.umaygarment.com/blog/blog2-how-to-choose-a-fur-factory): Shows how buyers can verify the operating entity, production responsibility, communication path and QC access.
+- [Fur Coat Quality Inspection Checklist](https://www.umaygarment.com/blog/fur-coat-quality-inspection-checklist): Provides a buyer-defined specification and inspection path before production and shipment.
+- [Private Label Fur Materials Guide](https://www.umaygarment.com/blog/private-label-fur-materials-guide): Compares fox, raccoon, leather, shearling, curly-lamb and faux-fur sourcing inputs.
+- [OEM Faux-Fur Coats and Jackets](https://www.umaygarment.com/products/faux-fur): Connects the buyer guides to photographed womenswear references and project-specific customization.
 
 ## Key Pages
 
@@ -158,3 +167,52 @@ Repeated colors stay on one canonical page when construction and buyer intent ar
 - [Round-Neck White Fox-Fur Cropped Jacket](https://www.umaygarment.com/products/round-neck-white-fox-fur-cropped-jacket): Photographed women’s outerwear reference; exact materials, composition, measurements and order terms are confirmed for the selected project.
 - [Cape, Shawl, Vest or Fur Sleeve Component?](https://www.umaygarment.com/blog/cape-shawl-vest-sleeves-specification-guide): Buyer guide to structure, measurement and written specification decisions.
 - [How to Specify a Wool Cape or Fur-Trim Coat Before Sampling](https://www.umaygarment.com/blog/wool-cape-fur-trim-production-guide): Buyer guide to structure, measurement and written specification decisions.
+
+
+## Spanish and Russian Core Language Archives
+
+These are curated 19-page language clusters with self-contained product specifications, buyer guides, sampling terms, inspection evidence and contextual internal links. They do not claim that all English URLs are translated.
+
+### Español
+
+- [Inicio en español](https://www.umaygarment.com/es/)
+- [Colección de productos en español](https://www.umaygarment.com/es/products/)
+- [Guías para compradores en español](https://www.umaygarment.com/es/blog/)
+- [Sobre UMAY en español](https://www.umaygarment.com/es/about)
+- [Materiales y personalización](https://www.umaygarment.com/es/materials-customization)
+- [Piel de zorro](https://www.umaygarment.com/es/products/fox-fur)
+- [Piel de mapache](https://www.umaygarment.com/es/products/raccoon-fur)
+- [Chaquetas y prendas de cuero](https://www.umaygarment.com/es/products/leather-jacket)
+- [Shearling y cordero rizado](https://www.umaygarment.com/es/products/cashmere-sheep)
+- [Piel sintética](https://www.umaygarment.com/es/products/faux-fur)
+- [Abrigo largo de piel de zorro](https://www.umaygarment.com/es/products/whole-fox-fur-long-coat-large-lapel)
+- [Trench largo de shearling doble faz](https://www.umaygarment.com/es/products/long-double-face-shearling-trench-coat-belt)
+- [Chaqueta de cuero con piel de mapache](https://www.umaygarment.com/es/products/black-leather-raccoon-fur-trim-jacket)
+- [Abrigo de piel sintética con estampado leopardo](https://www.umaygarment.com/es/products/leopard-print-faux-fur-long-coat-belt)
+- [Chaqueta de cordero mongol con capucha](https://www.umaygarment.com/es/products/white-hooded-mongolian-lamb-fur-jacket)
+- [Abrigo de cuero con piel de zorro](https://www.umaygarment.com/es/products/belted-leather-coat-fox-fur-collar-cuffs)
+- [Especificación de chaquetas de piel de zorro](https://www.umaygarment.com/es/blog/fox-fur-jacket-specification-guide)
+- [MOQ y muestras de prendas de piel](https://www.umaygarment.com/es/blog/fur-garment-moq-sampling-guide)
+- [Especificación de prendas con ribetes de piel](https://www.umaygarment.com/es/blog/fur-trim-outerwear-specification-guide)
+
+### Русский
+
+- [Главная на русском](https://www.umaygarment.com/ru/)
+- [Каталог на русском](https://www.umaygarment.com/ru/products/)
+- [Руководства для закупщиков на русском](https://www.umaygarment.com/ru/blog/)
+- [О компании UMAY](https://www.umaygarment.com/ru/about)
+- [Материалы и кастомизация](https://www.umaygarment.com/ru/materials-customization)
+- [Мех лисы](https://www.umaygarment.com/ru/products/fox-fur)
+- [Мех енота](https://www.umaygarment.com/ru/products/raccoon-fur)
+- [Кожаные куртки и изделия](https://www.umaygarment.com/ru/products/leather-jacket)
+- [Овчина и кудрявый ягнёнок](https://www.umaygarment.com/ru/products/cashmere-sheep)
+- [Искусственный мех](https://www.umaygarment.com/ru/products/faux-fur)
+- [Длинное пальто из меха лисы](https://www.umaygarment.com/ru/products/whole-fox-fur-long-coat-large-lapel)
+- [Длинный тренч из двусторонней овчины](https://www.umaygarment.com/ru/products/long-double-face-shearling-trench-coat-belt)
+- [Кожаная куртка с мехом енота](https://www.umaygarment.com/ru/products/black-leather-raccoon-fur-trim-jacket)
+- [Леопардовое пальто из искусственного меха](https://www.umaygarment.com/ru/products/leopard-print-faux-fur-long-coat-belt)
+- [Куртка из монгольского ягнёнка с капюшоном](https://www.umaygarment.com/ru/products/white-hooded-mongolian-lamb-fur-jacket)
+- [Кожаное пальто с мехом лисы](https://www.umaygarment.com/ru/products/belted-leather-coat-fox-fur-collar-cuffs)
+- [Спецификация изделий из меха лисы](https://www.umaygarment.com/ru/blog/fox-fur-jacket-specification-guide)
+- [MOQ и образцы меховой одежды](https://www.umaygarment.com/ru/blog/fur-garment-moq-sampling-guide)
+- [Спецификация изделий с меховой отделкой](https://www.umaygarment.com/ru/blog/fur-trim-outerwear-specification-guide)

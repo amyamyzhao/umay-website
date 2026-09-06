@@ -1,0 +1,64 @@
+/* Legacy content adapters for the shared 0831 product-detail layout.
+   Scoped to migrated detail pages: home, listings and category pages are frozen. */
+.um-detail-standard{--text-soft:var(--muted);--text:var(--ink);--dark:var(--ink);--primary:var(--accent);--border:var(--line);--bg-warm:var(--warm);--gold:var(--accent)}
+.um-detail-standard .brand img{width:60px;height:60px;object-fit:contain;filter:none;transform:none}
+.um-detail-standard main{min-width:0}
+.um-detail-standard main img{max-width:100%!important}
+.um-detail-standard main table{min-width:0!important}
+.um-detail-standard .crumb{flex-wrap:wrap;align-items:center}
+.um-detail-standard .product-hero{align-items:start}
+.um-detail-standard .product-hero>*,.um-detail-standard .gallery>*,.um-detail-standard .split>*,.um-detail-standard figure{min-width:0}
+.um-detail-standard .gallery{position:static;align-items:start}
+.um-detail-standard .hero-image{margin:0;padding:10px}
+.um-detail-standard .hero-image img{width:100%;height:100%;object-fit:contain;object-position:center;display:block}
+.um-detail-standard .thumbs{margin:0;flex-wrap:nowrap;max-height:none;overflow:visible;padding:0}
+.um-detail-standard .thumb{width:100%;min-width:0;aspect-ratio:auto;display:flex;flex-direction:column;border:2px solid transparent}
+.um-detail-standard .thumb img{width:100%;height:auto;aspect-ratio:1;object-fit:contain;object-position:center;display:block}
+.um-detail-standard .thumb span{display:block;font-size:10px;padding:3px 4px;line-height:1.35;color:var(--muted)}
+.um-detail-standard .thumb.active,.um-detail-standard .thumb[aria-pressed=true]{border-color:var(--accent)}
+.um-detail-standard .gallery>.caption{grid-column:1/-1;margin:0;font-size:12px;color:var(--muted)}
+.um-detail-standard .hero-copy h1{margin-top:12px}
+.um-detail-standard .hero-copy .summary{font-size:19px;color:var(--muted)}
+.um-detail-standard .hero-copy .quote-brief{padding:14px 16px;border-left:3px solid var(--accent);background:#fff;font-size:14px;color:var(--muted);margin:20px 0}
+.um-detail-standard .button{align-items:center;justify-content:center;gap:8px;font-size:14px;line-height:1.45;text-align:center;border:1px solid var(--ink)}
+.um-detail-standard .button svg{width:20px;height:20px;flex:none}
+.um-detail-standard .actions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 0}
+.um-detail-standard .actions .button{max-width:100%}
+.um-detail-standard .detail-badges{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}
+.um-detail-standard .detail-badges>span,.um-detail-standard .detail-badges>.chip{border:1px solid var(--line);padding:6px 10px;border-radius:99px;font-size:12px;background:var(--warm)}
+.um-detail-standard main h2{font-family:Georgia,serif;font-size:clamp(30px,4vw,48px);line-height:1.1;margin:12px 0 20px}
+.um-detail-standard main h3{font-size:18px;line-height:1.4}
+.um-detail-standard .section-label{display:block}
+.um-detail-standard .small,.um-detail-standard .note,.um-detail-standard .caption,.um-detail-standard .table-note,.um-detail-standard .size-copy{font-size:13px;color:var(--muted)}
+.um-detail-standard .detail-extra:empty{display:none}
+.um-detail-standard .detail-extra{padding:0}
+.um-detail-standard .path-grid,.um-detail-standard .highlights,.um-detail-standard .metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:24px 0}
+.um-detail-standard .path-grid article,.um-detail-standard .highlights>div,.um-detail-standard .metrics>div{border:1px solid var(--line);background:#fff;border-radius:14px;padding:18px}
+.um-detail-standard .highlight strong,.um-detail-standard .highlight span,.um-detail-standard .metrics strong,.um-detail-standard .metrics span{display:block;font-size:13px}
+.um-detail-standard .highlights,.um-detail-standard .metrics{grid-template-columns:repeat(2,minmax(0,1fr))}
+.um-detail-standard .spec-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:24px;align-items:start}
+.um-detail-standard .spec-copy,.um-detail-standard .spec-wrap,.um-detail-standard .detail-specification{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px}
+.um-detail-standard .detail-specification{margin:24px 0}
+.um-detail-standard table{width:100%;min-width:0;max-width:100%;border-collapse:collapse;font-size:14px;table-layout:fixed}
+.um-detail-standard td,.um-detail-standard th{padding:12px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.um-detail-standard th,.um-detail-standard .spec td:first-child{background:var(--warm);font-weight:700}
+.um-detail-standard .spec td:first-child,.um-detail-standard .spec-table th{width:30%}
+.um-detail-standard .table-scroll{max-width:100%;overflow:visible}
+.um-detail-standard .spec-row{display:grid;grid-template-columns:minmax(90px,.38fr) minmax(0,1fr);gap:16px;border-bottom:1px solid var(--line);padding:14px 0;font-size:14px}
+.um-detail-standard dt{font-weight:700}.um-detail-standard dd{margin:0;color:var(--muted)}
+.um-detail-standard .rule{border-bottom:1px solid var(--line);padding:16px 0}.um-detail-standard .rule p{font-size:14px;color:var(--muted)}
+.um-detail-standard .related-paths,.um-detail-standard .related,.um-detail-standard .batch-0903-linkgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.um-detail-standard .related-paths a,.um-detail-standard .related>a,.um-detail-standard .batch-0903-linkgrid>a{padding:20px;border:1px solid var(--line);border-radius:18px;background:#fff;color:var(--ink);text-decoration:none;min-width:0}
+.um-detail-standard .related-paths strong,.um-detail-standard .related-paths span,.um-detail-standard .batch-0903-linkgrid strong{display:block}
+.um-detail-standard .related-paths span,.um-detail-standard .batch-0903-linkgrid p{font-size:14px;color:var(--muted);margin-top:8px}
+.um-detail-standard .related img{width:100%;height:180px;object-fit:contain;object-position:center}
+.um-detail-standard .photo-grid img{height:auto;max-width:100%;object-fit:contain;object-position:center;display:block}
+.um-detail-standard .photo-media{aspect-ratio:1;display:flex;padding:8px}.um-detail-standard .photo-media img{height:100%!important;width:100%}
+.um-detail-standard .detail-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.um-detail-standard .detail-grid img{width:100%;height:auto;aspect-ratio:1;object-fit:contain}
+.um-detail-standard .review-note{display:block;margin:28px 0 0;background:var(--ink);color:#fff;border:0;border-radius:28px;padding:38px}
+.um-detail-standard .review-note h2{color:#fff}.um-detail-standard .review-note .button{background:#f3dccb;color:var(--ink);border-color:#f3dccb;margin-top:12px}
+.um-detail-standard .detail-footer .container,.um-detail-standard .detail-footer .wrap{width:auto;max-width:1184px;margin:auto}
+.um-detail-standard .detail-footer a{color:#f2d4bd}.um-detail-standard .detail-footer .footer-row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:24px}
+.um-detail-standard .detail-footer .footer-row a{margin-right:16px}
+@media(max-width:900px){.um-detail-standard .spec-layout{grid-template-columns:1fr}.um-detail-standard .gallery{max-width:700px;width:100%}.um-detail-standard .site-header{gap:18px}.um-detail-standard .related-paths,.um-detail-standard .related,.um-detail-standard .batch-0903-linkgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.um-detail-standard .site-header{padding:0 18px;gap:12px}.um-detail-standard .hero-copy h1{font-size:38px}.um-detail-standard .thumbs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;overflow:visible}.um-detail-standard .thumb{min-width:0}.um-detail-standard .hero-copy .summary{font-size:17px}.um-detail-standard .actions{display:grid;grid-template-columns:1fr}.um-detail-standard .path-grid,.um-detail-standard .related-paths,.um-detail-standard .related,.um-detail-standard .batch-0903-linkgrid,.um-detail-standard .detail-grid{grid-template-columns:1fr}.um-detail-standard .spec-copy,.um-detail-standard .spec-wrap,.um-detail-standard .detail-specification,.um-detail-standard .split article{padding:20px}.um-detail-standard .review-note{padding:26px}.um-detail-standard .measurement-table{font-size:11px}.um-detail-standard .measurement-table td,.um-detail-standard .measurement-table th{padding:10px 3px}.um-detail-standard .spec-row{grid-template-columns:100px minmax(0,1fr);gap:12px}.um-detail-standard td,.um-detail-standard th{padding:10px 6px}}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+<title>Prendas de piel y cuero a medida | Colección OEM/ODM | UMAY</title>
+<meta name="description" content="Explore prendas exteriores UMAY de piel, shearling y cuero a medida para marcas privadas. Revise la personalización, medidas, colores, etiquetas y embalaje por modelo.">
+<link rel="canonical" href="https://www.umaygarment.com/es/products/">
+<style>
+  :root{
+    --ink:#2C2416;--muted:#6b6254;--cream:#F9F6F0;--paper:#fff;
+    --gold:#B8965A;--gold-light:#D4B078;--brown:#5a3e28;
+    --line:#e6dfd2;--green:#25D366;
+    --shadow:0 8px 32px rgba(44,36,22,.08);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{color:var(--ink);background:var(--cream);font:16px/1.7 Inter,ui-sans-serif,system-ui,-apple-system,sans-serif}
+  a{color:var(--gold);text-decoration:none}
+  a:hover{color:var(--gold-light)}
+
+  /* NAV */
+  .topbar{background:var(--brown);color:#fff;text-align:center;padding:9px 24px;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+  .site-nav{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:100}
+  .nav-inner{max-width:1180px;margin:0 auto;padding:0 24px;min-height:66px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+  .logo{display:inline-flex;align-items:center;flex:0 0 auto;color:var(--ink)}
+  .logo img{display:block;width:48px;height:48px;object-fit:contain}
+  .nav-links{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+  .nav-links a{color:#4f463b;font-size:14px;font-weight:600}
+  .nav-links a:hover{color:var(--gold)}
+  .nav-links .quote-btn{background:var(--brown);color:#fff;padding:9px 18px;border-radius:6px;font-weight:700}
+  .nav-links .quote-btn:hover{background:var(--gold);color:#fff}
+
+  /* HERO */
+  .hero{background:linear-gradient(135deg,#2C2416 0%,#5a3e28 60%,#B8965A 100%);color:#fff;padding:64px 24px 52px;text-align:center}
+  .hero-inner{max-width:760px;margin:0 auto}
+  .hero-badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);border-radius:20px;padding:5px 18px;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:18px}
+  .hero h1{font-size:clamp(28px,4vw,48px);font-weight:800;line-height:1.15;margin-bottom:14px}
+  .hero p{color:rgba(255,255,255,.82);font-size:17px;margin-bottom:28px}
+  .hero-stats{display:flex;justify-content:center;gap:40px;flex-wrap:wrap}
+  .hero-stats .stat{text-align:center}
+  .hero-stats .stat-v{font-size:1.5rem;font-weight:800;display:block}
+  .hero-stats .stat-l{font-size:12px;color:rgba(255,255,255,.65);text-transform:uppercase;letter-spacing:.08em}
+
+  /* FILTER BAR */
+  .filter-bar{background:#fff;border-bottom:1px solid var(--line);padding:14px 24px}
+  .filter-inner{max-width:1180px;margin:0 auto;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .filter-label{font-size:13px;font-weight:700;color:var(--muted);margin-right:4px}
+  .filter-btn{padding:6px 16px;border:1px solid var(--line);border-radius:20px;background:#fff;font-size:13px;font-weight:600;color:var(--muted);cursor:pointer;transition:all .2s}
+  .filter-btn:hover,.filter-btn.active{background:var(--brown);color:#fff;border-color:var(--brown)}
+
+  /* GRID */
+  .wrap{max-width:1180px;margin:0 auto;padding:48px 24px 80px}
+  .section-label{font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}
+  .section-title{font-size:clamp(22px,3vw,32px);font-weight:800;margin-bottom:32px;color:var(--ink)}
+  .product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px}
+
+  /* CARD */
+  .card{background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:all .25s;display:flex;flex-direction:column}
+  .card:hover{box-shadow:var(--shadow);transform:translateY(-4px)}
+  .card-img{position:relative;overflow:hidden;aspect-ratio:4/3;background:#fff;display:grid;place-items:center}
+  .card-img>a{display:block;width:100%;height:100%;color:inherit}
+  .card-img img{width:100%;height:100%!important;object-fit:cover;object-position:center;display:block;transition:transform .4s}
+  .card-img.product-shot img{object-fit:contain;padding:10px;background:#fff}
+  .card:hover .card-img img{transform:scale(1.04)}
+  .card-badge{display:inline-flex;align-items:center;align-self:flex-start;background:var(--brown);color:#fff;font-size:11px;font-weight:700;padding:4px 11px;border-radius:20px;letter-spacing:.06em;margin-bottom:10px;white-space:nowrap}
+  .card-body{padding:20px;flex:1;display:flex;flex-direction:column}
+  .card-tag{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+  .card-title{font-size:17px;font-weight:700;color:var(--ink);margin-bottom:8px;line-height:1.3}
+  .card-title a{color:inherit;text-decoration:none}
+  .card-title a:hover{color:var(--gold)}
+  .card-desc{font-size:14px;color:var(--muted);line-height:1.6;margin-bottom:16px;flex:1}
+  .card-specs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:18px}
+  .spec-item{background:var(--cream);border-radius:8px;padding:8px 10px}
+  .spec-item .spec-k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:block}
+  .spec-item .spec-v{font-size:13px;font-weight:700;color:var(--ink);display:block}
+  .card-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+  .ctag{font-size:11px;background:#F5EDE0;border:1px solid var(--line);border-radius:12px;padding:3px 10px;color:var(--muted)}
+  .card-cta{display:flex;align-items:center;justify-content:center;gap:9px;background:var(--brown);color:#fff;border-radius:8px;min-height:44px;padding:11px 14px;font-weight:700;font-size:14px;text-decoration:none;transition:background .2s,transform .2s;white-space:nowrap}
+  .card-cta::before{content:"";width:18px;height:18px;flex:0 0 18px;background:url('/images/icons/whatsapp-white.svg') center/contain no-repeat}
+  .card-cta:hover{background:var(--gold);color:#fff;transform:translateY(-1px)}
+  .card-cta>svg{display:none}
+  .card-detail-link{display:flex;align-items:center;justify-content:center;min-height:42px;margin-bottom:10px;padding:9px 14px;border:1px solid var(--brown);border-radius:8px;color:var(--brown);font-size:13px;font-weight:700;text-decoration:none}
+  .card-detail-link:hover{background:var(--brown);color:#fff}
+
+  /* CTA BANNER */
+  .cta-banner{background:linear-gradient(135deg,#2C2416,#5a3e28);border-radius:20px;padding:48px 40px;text-align:center;color:#fff;margin-top:56px}
+  .cta-banner h2{font-size:28px;font-weight:800;margin-bottom:10px;color:#fff}
+  .cta-banner p{color:rgba(255,255,255,.8);margin-bottom:28px;font-size:16px}
+  .cta-banner .btn-wa{display:inline-flex;align-items:center;gap:10px;background:var(--green);color:#fff;padding:14px 32px;border-radius:8px;font-weight:700;font-size:16px;text-decoration:none}
+  .cta-banner .btn-wa:hover{background:#1ebe5d;color:#fff}
+
+  /* FOOTER */
+  footer{background:#1a1208;color:rgba(255,255,255,.5);text-align:center;padding:28px 24px;font-size:13px}
+  footer a{color:var(--gold-light)}
+
+  @media(max-width:768px){
+    .hero-stats{gap:24px}
+    .product-grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+    .cta-banner{padding:32px 20px}
+    .nav-links{gap:12px}
+  }
+  @media(max-width:640px){
+    .topbar{padding:7px 12px;font-size:11px;letter-spacing:.03em}
+    .nav-inner{min-height:58px;padding:0 16px;gap:12px}
+    .logo img{width:40px;height:40px}
+    .nav-links{gap:0;flex-wrap:nowrap}
+    .nav-links a{display:none}
+    .nav-links .quote-btn{display:inline-flex;padding:8px 14px}
+    .wrap{padding:32px 16px 64px}
+    .section-title{margin-bottom:22px}
+    .product-grid{grid-template-columns:1fr;gap:18px}
+    .card-body{padding:18px}
+    .card-title{font-size:19px}
+    .card-desc{font-size:14px;line-height:1.55}
+    .card-img.product-shot img{padding:14px}
+  }
+  @media(max-width:480px){
+    .product-grid{grid-template-columns:1fr}
+    .card-specs{grid-template-columns:1fr 1fr}
+  }
+.batch-0827 .card-img{flex-shrink:0;display:block}.batch-0827 .card-img>a{position:absolute;inset:0;min-width:0;min-height:0}.batch-0827 .card-title{min-height:3.9em}.batch-0827 .card-specs{min-height:94px}.batch-0827 .card-specs .spec-v{line-height:1.45}.batch-0827 .card-desc{min-height:5em}@media(max-width:640px){.batch-0827 .card-title,.batch-0827 .card-desc,.batch-0827 .card-specs{min-height:0}}
+.batch-0827 .card-title{min-height:3.9em}.batch-0827 .card-desc{min-height:5.8em}.batch-0827 .card-specs{min-height:188px}.batch-0827 .card-specs .spec-v{line-height:1.45}@media(max-width:640px){.batch-0827 .card-title,.batch-0827 .card-desc,.batch-0827 .card-specs{min-height:0}}
+</style>
+<style id="batch-0823-styles">
+  .card{height:100%}.card-title{min-height:2.65em}.card-desc{min-height:6.7em}
+  .new-batch-intro{display:flex;align-items:center;justify-content:space-between;gap:28px;margin:0 0 28px;padding:24px 26px;border:1px solid var(--line);border-radius:14px;background:#fff}.new-batch-intro h3{font-size:1.22rem;margin:2px 0 6px}.new-batch-intro p{max-width:780px;color:var(--muted);font-size:.92rem}.intro-kicker{color:var(--gold);font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.new-batch-intro>a{flex:0 0 auto;padding:10px 14px;border:1px solid var(--brown);border-radius:8px;color:var(--brown);font-size:.82rem;font-weight:700;text-align:center}.new-batch-intro>a:hover{background:var(--brown);color:#fff}
+  .intent-faq{margin-top:56px;padding:34px;border:1px solid var(--line);border-radius:18px;background:#fff}.intent-faq>h2{font-size:clamp(22px,3vw,30px);margin-bottom:22px}.intent-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.intent-grid article{padding:18px;border-radius:10px;background:var(--cream)}.intent-grid h3{font-size:.96rem;line-height:1.45;margin-bottom:7px}.intent-grid p{color:var(--muted);font-size:.84rem;line-height:1.65}
+  @media(max-width:760px){.new-batch-intro{align-items:flex-start;flex-direction:column}.new-batch-intro>a{width:100%}.intent-grid{grid-template-columns:1fr}.card-title,.card-desc{min-height:0}}
+</style>
+<script src="/js/analytics.js" defer></script>
+<style>.card.batch-0829{display:flex;flex-direction:column;height:100%}.batch-0829 .card-body{display:flex;flex-direction:column;flex:1}.batch-0829 .card-detail-link{margin-top:auto}</style><link rel="stylesheet" href="/css/0830-product-guide.css">
+<link rel="stylesheet" href="/css/0830-v7-link-clusters.css">
+<style>
+.category-paths{background:#f6f1e8;border-bottom:1px solid #e3d7c4;padding:clamp(34px,5vw,64px) 20px}.category-paths-inner{max-width:1180px;margin:0 auto}.category-paths-copy{max-width:760px;margin-bottom:22px}.category-paths .eyebrow{display:block;color:#9a6b23;font-size:.78rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px}.category-paths h2{margin:0 0 8px;font-size:clamp(1.65rem,3vw,2.45rem);line-height:1.15}.category-paths p{margin:0;color:#5d5a53}.category-path-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}.category-path{display:flex;min-width:0;min-height:126px;flex-direction:column;justify-content:space-between;padding:18px;border:1px solid #ddcfb8;border-radius:12px;background:#fff;color:#24211d;text-decoration:none;transition:transform .2s,border-color .2s,box-shadow .2s}.category-path:hover{transform:translateY(-2px);border-color:#b58a4d;box-shadow:0 10px 24px rgba(67,52,29,.08)}.category-path span{font-size:.72rem;color:#9a6b23;font-weight:800;letter-spacing:.08em}.category-path strong{font-size:1rem;line-height:1.2}.category-path small{color:#6b665d;line-height:1.35}.category-path:focus-visible{outline:3px solid #bf9251;outline-offset:3px}@media(max-width:900px){.category-path-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.category-paths{padding:30px 16px}.category-path-grid{grid-template-columns:1fr}.category-path{min-height:104px}}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"CollectionPage","@id":"https://www.umaygarment.com/es/products/#collection","url":"https://www.umaygarment.com/es/products/","name":"Colección de prendas de piel y cuero a medida","mainEntity":{"@id":"https://www.umaygarment.com/es/products/#core-categories"}},
+    {"@type":"ItemList","@id":"https://www.umaygarment.com/es/products/#core-categories","name":"Categorías principales de producto","itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Prendas exteriores de piel de zorro","url":"https://www.umaygarment.com/es/products/fox-fur"},
+      {"@type":"ListItem","position":2,"name":"Prendas exteriores de piel de mapache","url":"https://www.umaygarment.com/es/products/raccoon-fur"},
+      {"@type":"ListItem","position":3,"name":"Chaquetas de cuero","url":"https://www.umaygarment.com/es/products/leather-jacket"},
+      {"@type":"ListItem","position":4,"name":"Shearling and Curly Lamb","url":"https://www.umaygarment.com/es/products/cashmere-sheep"},
+      {"@type":"ListItem","position":5,"name":"Prendas exteriores de piel sintética","url":"https://www.umaygarment.com/es/products/faux-fur"}
+    ]}
+  ]
+}
+</script>
+<style id="products-confirmed-layout-v1">.category-paths{padding:24px 20px}.wrap{padding-top:28px}.batch-0901 .card-img>a{position:absolute;inset:0}.batch-0901 .card-img.product-shot img{object-fit:contain!important;object-position:50% 50%!important}.batch-0901 .card-detail-link{margin-top:auto}</style><link rel="stylesheet" href="/css/combined-catalog.css"><style id="batch-0902-fullsite-preview">#productGrid .card[data-detail-href]{cursor:pointer}#productGrid .card[data-detail-href]:focus-visible{outline:3px solid #bf9251;outline-offset:3px}#productGrid .card .card-img>a{position:absolute!important;inset:0!important;display:block;width:100%;height:100%}#productGrid .card .card-img img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:50% 50%!important;padding:10px;background:#fff}#productGrid .card:hover .card-img img{transform:none!important}.batch-0902{height:100%}.batch-0902 .card-body{display:flex;flex-direction:column;flex:1}.batch-0902 .card-title{min-height:2.65em}.batch-0902 .card-desc{min-height:6.7em}.batch-0902 .card-tags{min-height:54px}.batch-0902 .card-detail-link{margin-top:auto}@media(max-width:640px){.batch-0902 .card-title,.batch-0902 .card-desc,.batch-0902 .card-tags{min-height:0}}</style><style id="batch-0903-fullsite-preview">#productGrid .card-img>a{position:absolute!important;inset:0!important;display:block;width:100%;height:100%}#productGrid .card-img img{width:100%!important;height:100%!important;object-fit:contain!important;object-position:50% 50%!important;padding:10px;background:#fff}#productGrid .card:hover .card-img img{transform:none!important}.batch-0903{height:100%}.batch-0903 .card-body{display:flex;flex-direction:column;flex:1}.batch-0903 .card-title{min-height:2.65em}.batch-0903 .card-desc{min-height:6.7em}.batch-0903 .card-tags{min-height:54px}.batch-0903 .card-detail-link{margin-top:auto}@media(max-width:640px){.batch-0903 .card-title,.batch-0903 .card-desc,.batch-0903 .card-tags{min-height:0}}</style><link rel="stylesheet" href="/css/language-switch.css">
+
+  <link rel="alternate" hreflang="en" href="https://www.umaygarment.com/products/">
+  <link rel="alternate" hreflang="es" href="https://www.umaygarment.com/es/products/">
+  <link rel="alternate" hreflang="ru" href="https://www.umaygarment.com/ru/products/">
+  <link rel="alternate" hreflang="x-default" href="https://www.umaygarment.com/products/">
+<link rel="stylesheet" href="/css/unified-footer.css"></head>
+<body>
+
+<div class="topbar">Modelos de referencia · Medidas personalizadas · Marca privada</div>
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="/es/" class="logo" aria-label="Inicio de UMAY Garment"><img src="/images/brand/umay-garment-logo.webp" width="48" height="48" alt="UMAY Garment"></a>
+    <div class="nav-links">
+      <a href="/es/products/" style="color:var(--gold)">Productos</a>
+      <a href="/es/#oem">OEM y ODM</a>
+      <a href="/es/#faq">Preguntas frecuentes</a>
+      <a href="/es/blog/">Guías</a>
+      <a href="/es/#inquiry" class="quote-btn">Solicitar cotización</a>
+    </div>
+  <details class="umay-language-switch"><summary aria-label="Elegir idioma"><span class="locale-long">Español</span><span class="locale-short">ES</span><span aria-hidden="true" class="locale-arrow">▾</span></summary><div class="umay-language-options"><a href="/products/" lang="en" hreflang="en"><span>English</span><small>EN</small></a><a href="/es/products/" lang="es" hreflang="es" aria-current="page" class="is-current"><span>Español</span><small>ES</small></a><a href="/ru/products/" lang="ru" hreflang="ru"><span>Русский</span><small>RU</small></a></div></details></div>
+</nav>
+
+<div class="hero">
+  <div class="hero-inner">
+    <span class="hero-badge">Colección completa · Desarrollo B2B a medida</span>
+    <h1>Prendas de piel y cuero a medida<br>Colección de prendas</h1>
+    <p>OEM/ODM · Modelos de referencia · Medidas, etiquetas y embalaje personalizados</p>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-v">Flexible</span><span class="stat-l">Opciones del proyecto</span></div>
+      <div class="stat"><span class="stat-v">A medida</span><span class="stat-l">Medidas</span></div>
+      <div class="stat"><span class="stat-v">Marca privada</span><span class="stat-l">Etiquetas y embalaje</span></div>
+      <div class="stat"><span class="stat-v">Originales</span><span class="stat-l">Fotos del producto</span></div>
+    </div>
+  </div>
+</div>
+
+<section class="category-paths" aria-label="Categorías de producto">
+  <div class="category-paths-inner">
+    <div class="category-path-grid">
+      <a class="category-path" href="/es/products/fox-fur"><span>01 · PIEL NATURAL</span><strong>Prendas exteriores de piel de zorro</strong><small>Abrigos, chaquetas, paneles y direcciones de ribete</small></a>
+      <a class="category-path" href="/es/products/raccoon-fur"><span>02 · PIEL NATURAL</span><strong>Prendas exteriores de piel de mapache</strong><small>Chaquetas, mangas, cuellos y referencias de materiales combinados</small></a>
+      <a class="category-path" href="/es/products/leather-jacket"><span>03 · CUERO</span><strong>Chaquetas de cuero</strong><small>Referencias biker, cortas, con cinturón y ribete de piel</small></a>
+      <a class="category-path" href="/es/products/cashmere-sheep"><span>04 · PIEL DE OVEJA</span><strong>Shearling y cordero rizado</strong><small>Opciones doble faz, cordero rizado y superficies de lana</small></a>
+      <a class="category-path" href="/es/products/faux-fur"><span>05 · SINTÉTICO</span><strong>Prendas exteriores de piel sintética</strong><small>Opciones de textura, estampado, color y marca privada</small></a>
+    </div>
+  </div>
+</section>
+<div class="filter-bar" id="product-filters">
+  <div class="filter-inner">
+    <span class="filter-label">Filtrar:</span>
+    <button class="filter-btn active" onclick="filterCards('all')">Todos los productos</button>
+    <button class="filter-btn" onclick="filterCards('cape')">Capas</button>
+    <button class="filter-btn" onclick="filterCards('shawl')">Chales</button>
+    <button class="filter-btn" onclick="filterCards('vest')">Chalecos</button>
+    <button class="filter-btn" onclick="filterCards('sleeves')">Mangas y componentes</button>
+    <button class="filter-btn" onclick="filterCards('coat-jacket')">Abrigos y chaquetas</button>
+    <button class="filter-btn" onclick="filterCards('real-fur')">Piel natural</button>
+    <button class="filter-btn" onclick="filterCards('rabbit')">Conejo</button>
+    <button class="filter-btn" onclick="filterCards('mink')">Visón</button>
+    <button class="filter-btn" onclick="filterCards('leather')">Cuero</button>
+    <button class="filter-btn" onclick="filterCards('faux')">Piel sintética</button>
+    <button class="filter-btn" onclick="filterCards('new')">Novedades</button>
+  </div>
+</div>
+
+<div class="wrap">
+<div class="product-grid" id="productGrid"><article class="card localized-initial" data-selling-tags="structured" data-cat="real-fur coat-jacket new"><div class="card-img product-shot"><a href="/es/products/whole-fox-fur-long-coat-large-lapel" aria-label="Ver detalles: Abrigo largo de piel de zorro con solapa amplia"><img src="/images/products/0823/whole-fox-fur-long-coat-large-lapel/view-01-styled-reference.webp" loading="lazy" alt="Abrigo largo de piel de zorro con solapa amplia"></a></div><div class="card-body"><span class="card-badge">Modelo de referencia</span><span class="card-tag">Piel de zorro</span><h3 class="card-title"><a href="/es/products/whole-fox-fur-long-coat-large-lapel">Abrigo largo de piel de zorro con solapa amplia</a></h3><p class="card-desc">Abrigo largo de referencia en piel de zorro con una solapa generosa, fotografiado en direcciones de color dorado y plateado.</p><div class="card-tags"><span class="ctag">Piel de zorro</span><span class="ctag">Abrigo largo</span><span class="ctag">Solapa amplia</span><span class="ctag">OEM/ODM</span></div><a href="/es/products/whole-fox-fur-long-coat-large-lapel" class="card-detail-link">Ver detalles →</a><a href="https://wa.me/8618857337355?text=Hola%20UMAY%20Garment%2C%20deseo%20comentar%20un%20proyecto%20de%20prendas%20exteriores%20personalizadas.%0AModelo%20de%20referencia%3A%20Abrigo%20largo%20de%20piel%20de%20zorro%20con%20solapa%20amplia%0AComparta%20cantidad%2C%20medidas%2C%20material%2C%20color%2C%20etiquetas%2C%20embalaje%20y%20destino." class="card-cta" target="_blank" rel="noopener">Consultar este modelo</a></div></article><article class="card localized-initial" data-selling-tags="structured" data-cat="leather coat-jacket new"><div class="card-img product-shot"><a href="/es/products/long-double-face-shearling-trench-coat-belt" aria-label="Ver detalles: Trench largo de shearling doble faz con cinturón"><img src="/images/products/0824/long-double-face-shearling-trench-coat-belt/view-01-color-options.webp" loading="lazy" alt="Trench largo de shearling doble faz con cinturón"></a></div><div class="card-body"><span class="card-badge">Modelo de referencia</span><span class="card-tag">Shearling y cordero rizado</span><h3 class="card-title"><a href="/es/products/long-double-face-shearling-trench-coat-belt">Trench largo de shearling doble faz con cinturón</a></h3><p class="card-desc">Referencia de trench largo de doble faz con cuello amplio, cierre de botones, cinturón a juego y bolsillos de parche.</p><div class="card-tags"><span class="ctag">Doble faz</span><span class="ctag">Trench largo</span><span class="ctag">Cuello amplio</span><span class="ctag">Cinturón</span></div><a href="/es/products/long-double-face-shearling-trench-coat-belt" class="card-detail-link">Ver detalles →</a><a href="https://wa.me/8618857337355?text=Hola%20UMAY%20Garment%2C%20deseo%20comentar%20un%20proyecto%20de%20prendas%20exteriores%20personalizadas.%0AModelo%20de%20referencia%3A%20Trench%20largo%20de%20shearling%20doble%20faz%20con%20cintur%C3%B3n%0AComparta%20cantidad%2C%20medidas%2C%20material%2C%20color%2C%20etiquetas%2C%20embalaje%20y%20destino." class="card-cta" target="_blank" rel="noopener">Consultar este modelo</a></div></article><article class="card localized-initial" data-selling-tags="structured" data-cat="real-fur leather coat-jacket new"><div class="card-img product-shot"><a href="/es/products/black-leather-raccoon-fur-trim-jacket" aria-label="Ver detalles: Chaqueta negra de cuero con ribete de piel de mapache"><img src="/images/products/0823/black-leather-raccoon-fur-trim-jacket/view-01-front-view.webp" loading="lazy" alt="Chaqueta negra de cuero con ribete de piel de mapache"></a></div><div class="card-body"><span class="card-badge">Modelo de referencia</span><span class="card-tag">Piel de mapache</span><h3 class="card-title"><a href="/es/products/black-leather-raccoon-fur-trim-jacket">Chaqueta negra de cuero con ribete de piel de mapache</a></h3><p class="card-desc">Chaqueta de referencia en cuero negro texturizado, enmarcada por un ribete de piel de mapache teñido en fucsia intenso.</p><div class="card-tags"><span class="ctag">Cuero texturizado</span><span class="ctag">Ribete de mapache</span><span class="ctag">Cuello protagonista</span><span class="ctag">Color a medida</span></div><a href="/es/products/black-leather-raccoon-fur-trim-jacket" class="card-detail-link">Ver detalles →</a><a href="https://wa.me/8618857337355?text=Hola%20UMAY%20Garment%2C%20deseo%20comentar%20un%20proyecto%20de%20prendas%20exteriores%20personalizadas.%0AModelo%20de%20referencia%3A%20Chaqueta%20negra%20de%20cuero%20con%20ribete%20de%20piel%20de%20mapache%0AComparta%20cantidad%2C%20medidas%2C%20material%2C%20color%2C%20etiquetas%2C%20embalaje%20y%20destino." class="card-cta" target="_blank" rel="noopener">Consultar este modelo</a></div></article><article class="card localized-initial" data-selling-tags="structured" data-cat="faux coat-jacket new"><div class="card-img product-shot"><a href="/es/products/leopard-print-faux-fur-long-coat-belt" aria-label="Ver detalles: Abrigo largo de piel sintética con estampado leopardo"><img src="/images/products/0825/leopard-print-faux-fur-long-coat-belt/view-01.webp" loading="lazy" alt="Abrigo largo de piel sintética con estampado leopardo"></a></div><div class="card-body"><span class="card-badge">Modelo de referencia</span><span class="card-tag">Piel sintética</span><h3 class="card-title"><a href="/es/products/leopard-print-faux-fur-long-coat-belt">Abrigo largo de piel sintética con estampado leopardo</a></h3><p class="card-desc">Abrigo largo de referencia en piel sintética con estampado leopardo, solapa amplia y cinturón del mismo material.</p><div class="card-tags"><span class="ctag">Piel sintética</span><span class="ctag">Abrigo largo</span><span class="ctag">Estampado leopardo</span><span class="ctag">Cinturón</span></div><a href="/es/products/leopard-print-faux-fur-long-coat-belt" class="card-detail-link">Ver detalles →</a><a href="https://wa.me/8618857337355?text=Hola%20UMAY%20Garment%2C%20deseo%20comentar%20un%20proyecto%20de%20prendas%20exteriores%20personalizadas.%0AModelo%20de%20referencia%3A%20Abrigo%20largo%20de%20piel%20sint%C3%A9tica%20con%20estampado%20leopardo%0AComparta%20cantidad%2C%20medidas%2C%20material%2C%20color%2C%20etiquetas%2C%20embalaje%20y%20destino." class="card-cta" target="_blank" rel="noopener">Consultar este modelo</a></div></article><article class="card localized-initial" data-selling-tags="structured" data-cat="leather coat-jacket new"><div class="card-img product-shot"><a href="/es/products/white-hooded-mongolian-lamb-fur-jacket" aria-label="Ver detalles: Chaqueta blanca con capucha de cordero mongol"><img src="/images/products/0823/white-hooded-mongolian-lamb-fur-jacket/view-01-front-view.webp" loading="lazy" alt="Chaqueta blanca con capucha de cordero mongol"></a></div><div class="card-body"><span class="card-badge">Modelo de referencia</span><span class="card-tag">Shearling y cordero rizado</span><h3 class="card-title"><a href="/es/products/white-hooded-mongolian-lamb-fur-jacket">Chaqueta blanca con capucha de cordero mongol</a></h3><p class="card-desc">Chaqueta de referencia en tono blanco natural con capucha y una textura larga y rizada de cordero mongol.</p><div class="card-tags"><span class="ctag">Cordero mongol</span><span class="ctag">Chaqueta con capucha</span><span class="ctag">Textura rizada</span><span class="ctag">Medidas a medida</span></div><a href="/es/products/white-hooded-mongolian-lamb-fur-jacket" class="card-detail-link">Ver detalles →</a><a href="https://wa.me/8618857337355?text=Hola%20UMAY%20Garment%2C%20deseo%20comentar%20un%20proyecto%20de%20prendas%20exteriores%20personalizadas.%0AModelo%20de%20referencia%3A%20Chaqueta%20blanca%20con%20capucha%20de%20cordero%20mongol%0AComparta%20cantidad%2C%20medidas%2C%20material%2C%20color%2C%20etiquetas%2C%20embalaje%20y%20destino." class="card-cta" target="_blank" rel="noopener">Consultar este modelo</a></div></article><article class="card localized-initial" data-selling-tags="structured" data-cat="leather real-fur coat-jacket new" data-sku="UMS-LTFX-023"><div class="card-img product-shot"><a href="/es/products/belted-leather-coat-fox-fur-collar-cuffs" aria-label="Ver detalles: Abrigo de cuero con cinturón, cuello y puños de piel de zorro"><img src="/images/products/0828/belted-leather-coat-fox-fur-collar-cuffs/view-01-color-range.webp" loading="lazy" alt="Abrigo de cuero con cinturón, cuello y puños de piel de zorro"></a></div><div class="card-body"><span class="card-badge">UMS-LTFX-023</span><span class="card-tag">Cuero</span><h3 class="card-title"><a href="/es/products/belted-leather-coat-fox-fur-collar-cuffs">Abrigo de cuero con cinturón, cuello y puños de piel de zorro</a></h3><p class="card-desc">Referencia de abrigo de cuero genuino con cinturón, cuello profundo de piel de zorro, puños voluminosos y una silueta más corta que los modelos largos.</p><div class="card-tags"><span class="ctag">Cuero + piel de zorro</span><span class="ctag">Abrigo con cinturón</span><span class="ctag">Cuello profundo</span><span class="ctag">Medidas a medida</span></div><a href="/es/products/belted-leather-coat-fox-fur-collar-cuffs" class="card-detail-link">Ver detalles →</a><a href="https://wa.me/8618857337355?text=Hola%20UMAY%20Garment%2C%20deseo%20comentar%20un%20proyecto%20de%20prendas%20exteriores%20personalizadas.%0AModelo%20de%20referencia%3A%20Abrigo%20de%20cuero%20con%20cintur%C3%B3n%2C%20cuello%20y%20pu%C3%B1os%20de%20piel%20de%20zorro%0AComparta%20cantidad%2C%20medidas%2C%20material%2C%20color%2C%20etiquetas%2C%20embalaje%20y%20destino." class="card-cta" target="_blank" rel="noopener">Consultar este modelo</a></div></article>
+</div><!-- /product-grid -->
+
+  <!-- 0823 INTENT Preguntas frecuentes START -->
+<section class="intent-faq" aria-labelledby="custom-manufacturer-faq"><p class="section-label">Respuestas rápidas para compradores</p><h2 id="custom-manufacturer-faq">Preguntas frecuentes sobre prendas exteriores a medida</h2><div class="intent-grid"><article><h3>¿Cómo comparo las opciones de desarrollo de prendas exteriores a medida?</h3><p>Utilice las cinco categorías principales y revise cada modelo fotografiado por sus medidas, notas de material, alcance de marca privada y condiciones escritas del pedido.</p></article><article><h3>¿Puede el proveedor revisar mi imagen de referencia o tech pack?</h3><p>Envíe una imagen, boceto, muestra física o tech pack para revisar la viabilidad. El alcance de desarrollo aceptado se confirma por escrito.</p></article><article><h3>¿Qué datos ayudan a preparar una cotización de marca privada?</h3><p>Comparta el material, las medidas o tabla de tallas, colores, ubicación de marca, embalaje, cantidad y destino.</p></article><article><h3>¿Puedo personalizar un modelo existente de chaqueta de piel o cuero?</h3><p>Sí. Parta de una referencia fotografiada y adapte el ajuste, color, forro, cierre, etiquetas y embalaje para su marca.</p></article></div></section>
+<!-- 0823 INTENT Preguntas frecuentes END -->
+
+<div class="cta-banner">
+    <h2>¿No encuentra su modelo?</h2>
+    <p>Envíe a Cathy su imagen de referencia, boceto, muestra física o tech pack. Revisaremos el material, la construcción, las medidas y la cantidad objetivo para preparar una cotización.</p>
+    <a href="https://wa.me/8618857337355?text=Hola%20UMAY%20Garment%2C%20deseo%20comentar%20un%20proyecto%20de%20prendas%20exteriores%20personalizadas.%0AComparta%20cantidad%2C%20medidas%2C%20material%2C%20color%2C%20etiquetas%2C%20embalaje%20y%20destino." class="btn-wa" target="_blank" rel="noopener">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+      Escribir a Cathy por WhatsApp
+    </a>
+  </div>
+</div>
+
+
+  <section class="localized-section warm v11-products-help"><div class="localized-wrap"><div class="section-heading"><span class="localized-kicker">Cómo usar esta colección</span><h2>Modelos seleccionados para iniciar un proyecto OEM/ODM</h2><p>Esta versión reúne seis modelos con ficha completa en español. No limita la capacidad de fabricación: puede partir de una referencia UMAY o enviar su propio diseño. La colección ampliará su cobertura por lotes después de completar cada traducción y sus enlaces.</p></div><div class="info-grid three"><article><h3>1. Elija una dirección</h3><p>Compare piel de zorro, mapache, cuero, shearling, cordero rizado y piel sintética mediante los cinco filtros de material.</p></article><article><h3>2. Defina su especificación</h3><p>Indique material, color, medidas, construcción, cantidad, etiquetas, embalaje y destino. Las fichas explican qué está fotografiado y qué debe confirmarse.</p></article><article><h3>3. Solicite muestra y cotización</h3><p>La cotización se adapta al proyecto, sin precio fijo público. También puede enviar foto, boceto, muestra o tech pack.</p></article></div><div class="related-grid compact-links"><a href="/es/materials-customization"><strong>Comparar materiales</strong><span>Decisiones de material, color, medidas y marca.</span></a><a href="/es/blog/fur-garment-moq-sampling-guide"><strong>Preparar MOQ y muestra</strong><span>Datos necesarios para calcular y aprobar.</span></a><a href="/es/about"><strong>Conocer el proceso de UMAY</strong><span>Responsabilidades, inspección y condiciones confirmadas.</span></a></div></div></section><footer class="umay-unified-footer"><div class="umay-footer-inner"><div class="umay-footer-grid"><div class="umay-footer-brand-column"><a class="umay-footer-brand-lockup" href="/es/" aria-label="UMAY Garment"><span class="umay-footer-logo-frame"><img src="/images/brand/umay-garment-logo.webp" alt="UMAY Garment" width="92" height="64"></span><span class="umay-footer-brand-copy"><strong>Jiaxing Umay Garment Co., Ltd.</strong><small>OEM/ODM · Marca privada</small></span></a><p>Prendas exteriores personalizadas de piel, cuero y piel sintética para marcas, boutiques y compradores mayoristas.</p></div><nav class="umay-footer-column" aria-label="Explorar"><strong>Explorar</strong><a href="/es/products/">Productos</a><a href="/es/materials-customization">Materiales y personalización</a><a href="/es/about">Sobre UMAY</a></nav><nav class="umay-footer-column" aria-label="Guías para compradores"><strong>Guías para compradores</strong><a href="/es/blog/fox-fur-jacket-specification-guide">Especificación de piel de zorro</a><a href="/es/blog/fur-garment-moq-sampling-guide">MOQ y muestras</a><a href="/es/blog/fur-trim-outerwear-specification-guide">Especificación de ribetes de piel</a></nav><div class="umay-footer-column umay-footer-contact"><strong>Contacto: Cathy</strong><span>Jiaxing, Zhejiang, China</span><a href="mailto:cathy@umaygarment.com">cathy@umaygarment.com</a><a href="https://wa.me/8618857337355" target="_blank" rel="noopener">WhatsApp: +86 188 5733 7355</a></div></div><div class="umay-footer-bottom"><span>© 2026 Jiaxing Umay Garment Co., Ltd.</span><span>Todos los derechos reservados.</span></div></div></footer>
+
+<script>
+function filterCards(cat) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  document.querySelectorAll('.card').forEach(card => {
+    if (cat === 'all' || card.dataset.cat.includes(cat)) {
+      card.style.display = '';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>
+<script id="product-card-navigation">(()=>{document.querySelectorAll('#productGrid .card').forEach((card)=>{const href=card.querySelector('.card-detail-link')?.getAttribute('href')||card.querySelector('.card-title a')?.getAttribute('href')||card.querySelector('.card-img a')?.getAttribute('href');if(!href)return;card.dataset.detailHref=href;card.tabIndex=0;card.setAttribute('role','link');card.addEventListener('click',(event)=>{if(event.target.closest('a,button,input,select,textarea,label'))return;location.href=href});card.addEventListener('keydown',(event)=>{if(event.target!==card||!['Enter',' '].includes(event.key))return;event.preventDefault();location.href=href})})})();</script></body>
+</html>

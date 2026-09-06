@@ -17,3 +17,19 @@
 
 # Retire the rejected mixed-style photograph without restoring it.
 /images/products/0825/embossed-cowhide-raccoon-fur-sleeve-jacket/view-01.webp /images/products/0827/UMS-LTRC-015/front.webp 301
+
+# Localized clean URLs.
+/es/index.html /es/ 301
+/ru/index.html /ru/ 301
+/es/products/index.html /es/products/ 301
+/ru/products/index.html /ru/products/ 301
+/es/blog/index.html /es/blog/ 301
+/ru/blog/index.html /ru/blog/ 301
+/es/products/:slug.html /es/products/:slug 301
+/ru/products/:slug.html /ru/products/:slug 301
+/es/blog/:slug.html /es/blog/:slug 301
+/ru/blog/:slug.html /ru/blog/:slug 301
+/es/about.html /es/about 301
+/ru/about.html /ru/about 301
+/es/materials-customization.html /es/materials-customization 301
+/ru/materials-customization.html /ru/materials-customization 301

@@ -3,7 +3,7 @@ import { fileURLToPath } from "node:url";
 
 const outputDirectory = fileURLToPath(new URL("../dist/", import.meta.url));
 
-const siteDirectories = ["blog", "css", "images", "js", "products"];
+const siteDirectories = ["blog", "css", "images", "js", "products", "es", "ru"];
 const siteFiles = [
   "_redirects",
   "about.html",
@@ -12,6 +12,8 @@ const siteFiles = [
   "materials-customization.html",
   "robots.txt",
   "sitemap.xml",
+  "sitemap-es.xml",
+  "sitemap-ru.xml",
 ];
 
 await rm(outputDirectory, { recursive: true, force: true });

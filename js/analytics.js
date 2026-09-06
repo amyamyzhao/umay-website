@@ -47,9 +47,11 @@
 
   function trackProductView() {
     var path = window.location.pathname.replace(/\/+$/, '') || '/';
-    if (path.indexOf('/products/') !== 0) return;
+    var siteLanguage = (document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+    var contentPath = path.replace(/^\/(?:es|ru)(?=\/)/, '');
+    if (contentPath.indexOf('/products/') !== 0) return;
 
-    var slug = path.slice('/products/'.length).replace(/\.html$/i, '');
+    var slug = contentPath.slice('/products/'.length).replace(/\.html$/i, '');
     if (!slug || categorySlugs.indexOf(slug) !== -1) return;
 
     var heading = document.querySelector('h1');
@@ -57,22 +59,22 @@
     var skuMeta = document.querySelector('meta[name="umay:sku"]');
 
     sendEvent('view_item', {
+      site_language: siteLanguage,
       items: [{
         item_id: skuMeta ? skuMeta.content : slug,
         item_name: pageName,
         item_brand: 'UMAY'
       }]
     });
-  }
-
-  document.addEventListener('click', function (event) {
+  }  document.addEventListener('click', function (event) {
     if (!event.isTrusted) return;
     var link = event.target.closest && event.target.closest(
       'a[href*="wa.me/"],a[href*="api.whatsapp.com/"],a[href*="whatsapp.com/"]'
     );
     if (!link) return;
     sendEvent('whatsapp_click', {
-      page_type: window.location.pathname.indexOf('/products/') === 0 ? 'product' : 'content',
+      page_type: window.location.pathname.replace(/^\/(?:es|ru)(?=\/)/, '').indexOf('/products/') === 0 ? 'product' : 'content',
+      site_language: (document.documentElement.lang || 'en').toLowerCase().split('-')[0],
       link_location: link.className ? String(link.className).slice(0, 80) : 'text_link',
       page_path: window.location.pathname.replace(/\.html$/i, '')
     });
