@@ -7,6 +7,7 @@ const siteDirectories = ["blog", "css", "images", "js", "products", "es", "ru"];
 const siteFiles = [
   "_redirects",
   "about.html",
+  "googleedf11b93aef14aa1.html",
   "index.html",
   "llms.txt",
   "materials-customization.html",
