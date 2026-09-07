@@ -1,3 +1,6 @@
+# Serve the exact Google Search Console verification filename without redirecting it.
+/googleedf11b93aef14aa1.html /googleedf11b93aef14aa1 200
+
 # Keep one permanent, extensionless URL for every HTML page.
 /index.html / 301
 /about.html /about 301
