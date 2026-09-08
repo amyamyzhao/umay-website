@@ -193,6 +193,7 @@ These are curated 19-page language clusters with self-contained product specific
 - [Abrigo de cuero con piel de zorro](https://www.umaygarment.com/es/products/belted-leather-coat-fox-fur-collar-cuffs)
 - [Especificación de chaquetas de piel de zorro](https://www.umaygarment.com/es/blog/fox-fur-jacket-specification-guide)
 - [MOQ y muestras de prendas de piel](https://www.umaygarment.com/es/blog/fur-garment-moq-sampling-guide)
+- [Cómo preparar una especificación de prendas de cuero ovino](https://www.umaygarment.com/es/blog/how-to-source-custom-sheepskin-leather-jacket): Guía para definir material, medidas, muestra, etiquetas, embalaje y control de calidad antes de solicitar una cotización.
 - [Especificación de prendas con ribetes de piel](https://www.umaygarment.com/es/blog/fur-trim-outerwear-specification-guide)
 
 ### Русский
@@ -215,4 +216,5 @@ These are curated 19-page language clusters with self-contained product specific
 - [Кожаное пальто с мехом лисы](https://www.umaygarment.com/ru/products/belted-leather-coat-fox-fur-collar-cuffs)
 - [Спецификация изделий из меха лисы](https://www.umaygarment.com/ru/blog/fox-fur-jacket-specification-guide)
 - [MOQ и образцы меховой одежды](https://www.umaygarment.com/ru/blog/fur-garment-moq-sampling-guide)
+- [Как подготовить спецификацию изделия из овчины](https://www.umaygarment.com/ru/blog/how-to-source-custom-sheepskin-leather-jacket): Руководство по материалу, меркам, образцу, этикеткам, упаковке и контролю качества до запроса расчета.
 - [Спецификация изделий с меховой отделкой](https://www.umaygarment.com/ru/blog/fur-trim-outerwear-specification-guide)
