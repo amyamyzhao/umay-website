@@ -1,0 +1,42 @@
+/* V23 preview: homepage-matched pulsing WhatsApp control for Products and Blog pages. */
+.umay-floating-wa,
+a.floating-wa {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 62px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: #25d366;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px 20px rgba(37,211,102,.5);
+  z-index: 1100;
+  isolation: isolate;
+  transition: transform .25s ease, background-color .25s ease;
+  animation: umay-wa-pulse 2.5s ease-in-out infinite;
+}
+.umay-floating-wa:hover,
+a.floating-wa:hover { transform: scale(1.1); background: #1da851; }
+.umay-floating-wa:focus-visible,
+a.floating-wa:focus-visible { outline: 3px solid #172125; outline-offset: 4px; }
+.umay-floating-wa svg,
+a.floating-wa svg { display: block; width: 28px !important; height: 28px !important; flex: 0 0 28px; fill: currentColor; }
+@keyframes umay-wa-pulse {
+  0%,100% { box-shadow: 0 4px 20px rgba(37,211,102,.5); }
+  50% { box-shadow: 0 4px 32px rgba(37,211,102,.8), 0 0 0 8px rgba(37,211,102,.15); }
+}
+@media (max-width: 768px) {
+  .umay-floating-wa,
+  a.floating-wa { right: 14px; bottom: calc(14px + env(safe-area-inset-bottom, 0px)); width: 56px; height: 56px; }
+  .umay-floating-wa svg,
+  a.floating-wa svg { width: 25px !important; height: 25px !important; flex-basis: 25px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .umay-floating-wa,
+  a.floating-wa { animation: none; transition: none; }
+}
